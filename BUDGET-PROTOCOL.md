@@ -27,8 +27,8 @@ the scripted normal flow; waiting for a final agent event excluded usable UI.
 
 ## Interpretation and validation
 
-This is a repaired **exploratory** cohort, not a preregistered confirmatory or
-unbiased first-attempt success study. Earlier access/operator retries, missing
+This cohort was repaired during the run and was not preregistered, so it is not
+an unbiased first-attempt success study. Earlier access/operator retries, missing
 cutoff replacement and the host browser-policy change remain limitations.
 Both artifact quality and generation completion must be visible in reports.
 

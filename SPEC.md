@@ -6,7 +6,7 @@ long content, small screens, keyboard-only use.
 
 Historical proposal (v0.4). Task counts, planned experiments and rules below
 include superseded plans. See HELDOUT-PROTOCOL.md for the current frozen
-protocol and ROUND3.md for exploratory results. Literature comparisons below
+protocol and ROUND3.md for round 3 results. Literature comparisons below
 are original planning claims and require a fresh source check before publication.
 
 ## Why this is new

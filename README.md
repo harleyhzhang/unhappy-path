@@ -103,8 +103,8 @@ repair details, replacements and resource differences are in BUDGET-PROTOCOL.md.
 artifact did not compile because App.css was missing. Reference controls and
 independent export arithmetic checks passed. See [BUDGET.md](BUDGET.md),
 [BUDGET-SENSITIVITY.md](BUDGET-SENSITIVITY.md), and
-[VALIDATION.md](VALIDATION.md). This remains exploratory, without independent
-human agreement measurement.
+[VALIDATION.md](VALIDATION.md). Independent human agreement has not been
+measured yet.
 
 ## November 21 Fable addition
 

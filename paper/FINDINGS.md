@@ -2,7 +2,7 @@
 
 First full run of Unhappy Path, November 19 to 21, 2026. Seven models, six
 tasks, two prompts, three runs each: 252 apps and 3,402 stress verdicts.
-Exploratory; read with [METHODS.md](METHODS.md) and the limits at the end.
+Read with [METHODS.md](METHODS.md) and the limits at the end.
 Every number here is in [data.json](data.json), which is built from
 `artifacts-budget/outcomes.csv` and the per-run grade files by
 `paper/build_data.py`.

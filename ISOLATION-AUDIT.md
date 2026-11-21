@@ -67,8 +67,7 @@ and calibration now specify it explicitly and close browsers in `finally`.
 The project template carries the same instructions for subsequent builders.
 Active builds from models observed making direct Chrome launches without the
 flag were interrupted and retried. Completed earlier builds are retained;
-the host-instruction change is a further reason to treat this as exploratory
-rather than a tightly controlled confirmatory model ranking.
+the host-instruction change is recorded as a limitation of the comparison.
 
 ## Remaining old-browser cleanup
 

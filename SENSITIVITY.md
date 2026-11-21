@@ -1,6 +1,6 @@
 # Sensitivity: does the order depend on one rule?
 
-**INVALIDATED FOR MODEL COMPARISON — November 19 audit found successful reads of grading code and hidden fixtures by benchmark builders. Retained as historical exploratory output. See ISOLATION-AUDIT.md.**
+**INVALIDATED FOR MODEL COMPARISON — November 19 audit found successful reads of grading code and hidden fixtures by benchmark builders. Retained for the record. See ISOLATION-AUDIT.md.**
 Round 3 tasks. Each column removes one harder stress from the score and shows each model's rank (1 is best) and score. Motion and garbage are the two rules a reasonable person could set differently; the last column drops both.
 
 ## Default (7 models with all 36 apps)

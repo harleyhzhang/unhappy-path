@@ -1,7 +1,7 @@
 # Round 3: seven models and the instruction comparison
 
-**INVALIDATED FOR MODEL COMPARISON — November 19 audit found successful reads of grading code and hidden fixtures by benchmark builders. Retained as historical exploratory output. See ISOLATION-AUDIT.md.**
-Exploratory. The harder-stress categories were chosen after seeing the first four models on these tasks, so this is not a confirmatory leaderboard; the held-out round (HELDOUT.md) is the check.
+**INVALIDATED FOR MODEL COMPARISON — November 19 audit found successful reads of grading code and hidden fixtures by benchmark builders. Retained for the record. See ISOLATION-AUDIT.md.**
+The harder-stress categories were chosen after seeing the first four models on these tasks, so this is not a confirmatory leaderboard; the held-out round (HELDOUT.md) is the check.
 
 Scores give equal weight to each task and each applicable stress category. Both partial-failure directions share one category. An app that fails the ordinary-function gate earns zero. Brackets are 95% intervals from resampling whole tasks.
 

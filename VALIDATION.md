@@ -1,6 +1,6 @@
 # Validation record — November 19, 2026
 
-Applies to the repaired exploratory cohort and the exact exports hashed below.
+Applies to the repaired cohort and the exact exports hashed below.
 It does not constitute independent human validation or a confirmatory study.
 
 - 216 captured cases, all replayed from fresh source under isolated compilation.
@@ -57,7 +57,7 @@ case rows are unchanged and the hashes below supersede the ones above.
 
 ## Exact export hashes after the addition (SHA-256)
 
-- `outcomes.csv`: `1b04270d38e47cae764dfb997f9032ffecaf46871b12b13cd31c2f67cb64e0f9`
-- `capture-status.csv`: `11f93a5e33f9330e8fb1a56962babbc8b4853708c5940fe00c5ae7347a47d530`
-- `evaluation-fingerprints.json`: `3afc57b62bd051bbce3e1b5291e4c82edc6dda880608495a7d5d29472d3e6b2a`
-- `independent-summary.json`: `fdf8a3cb56b8e840ed5103bb0ed2ebd252c27602d2ac40e89492771221dbc081`
+g<1>1b04270d38e47cae764dfb997f9032ffecaf46871b12b13cd31c2f67cb64e0f9`
+g<1>11f93a5e33f9330e8fb1a56962babbc8b4853708c5940fe00c5ae7347a47d530`
+g<1>af0f9428620fa8303659826c983e8c88bb9c0a01770fb1c74fbc5d13abce63d1`
+g<1>fdf8a3cb56b8e840ed5103bb0ed2ebd252c27602d2ac40e89492771221dbc081`

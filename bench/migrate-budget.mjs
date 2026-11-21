@@ -1,4 +1,4 @@
-// Reconcile preserved exploratory artifacts without copying the source corpus.
+// Reconcile preserved artifacts without copying the source corpus.
 import fs from 'node:fs'
 import path from 'node:path'
 const root=path.resolve(import.meta.dirname,'..'),from=path.join(root,'runs-isolated'),to=path.join(root,'runs-budget')

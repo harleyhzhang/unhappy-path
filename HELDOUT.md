@@ -1,6 +1,6 @@
 # Held-out round: six tasks written after the rules were fixed
 
-**INVALIDATED FOR MODEL COMPARISON — November 19 audit found successful reads of grading code and hidden fixtures by benchmark builders. Retained as historical exploratory output. See ISOLATION-AUDIT.md.**
+**INVALIDATED FOR MODEL COMPARISON — November 19 audit found successful reads of grading code and hidden fixtures by benchmark builders. Retained for the record. See ISOLATION-AUDIT.md.**
 **INCOMPLETE — counts below show the graded apps currently available.**
 
 Protocol: HELDOUT-PROTOCOL.md, committed before any of these apps were built. Rules, categories and scoring are unchanged from round 3.
