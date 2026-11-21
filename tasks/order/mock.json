@@ -1,0 +1,26 @@
+{
+ "/api/order": {
+  "id": 9,
+  "number": "#4410",
+  "customer": "Iris Lund",
+  "placedAt": "2026-02-14",
+  "status": "processing",
+  "totalCents": 12950
+ },
+ "/api/shipments": [
+  {
+   "id": 1,
+   "carrier": "NorthPost",
+   "trackingNumber": "NP-55120-A",
+   "status": "in transit",
+   "eta": "2026-02-19"
+  },
+  {
+   "id": 2,
+   "carrier": "Swift Parcel",
+   "trackingNumber": "SW-88014",
+   "status": "label created",
+   "eta": "2026-02-21"
+  }
+ ]
+}

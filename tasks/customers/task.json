@@ -1,0 +1,103 @@
+{
+ "kind": "search",
+ "fixture": {
+  "/api/customers": {
+   "search": {
+    "all": [
+     {
+      "id": 61,
+      "name": "Maribel Ortiz",
+      "company": "Corbel Studio",
+      "plan": "Team",
+      "email": "maribel.ortiz@example.com"
+     },
+     {
+      "id": 62,
+      "name": "Kofi Boateng",
+      "company": "Tidewell Ltd",
+      "plan": "Starter",
+      "email": "kofi.boateng@example.com"
+     },
+     {
+      "id": 63,
+      "name": "Yusuf Demir",
+      "company": "Vireo Systems",
+      "plan": "Business",
+      "email": "yusuf.demir@example.com"
+     },
+     {
+      "id": 64,
+      "name": "Elise Fournier",
+      "company": "Lumen Works",
+      "plan": "Team",
+      "email": "elise.fournier@example.com"
+     },
+     {
+      "id": 65,
+      "name": "Pedro Lima",
+      "company": "Orbit Foods",
+      "plan": "Starter",
+      "email": "pedro.lima@example.com"
+     },
+     {
+      "id": 66,
+      "name": "Anders Holm",
+      "company": "Fjord Supply",
+      "plan": "Business",
+      "email": "anders.holm@example.com"
+     },
+     {
+      "id": 67,
+      "name": "Freya Andersson",
+      "company": "Polar Mill",
+      "plan": "Team",
+      "email": "freya.andersson@example.com"
+     },
+     {
+      "id": 68,
+      "name": "Bianca Santoro",
+      "company": "Verde Kitchen",
+      "plan": "Starter",
+      "email": "bianca.santoro@example.com"
+     },
+     {
+      "id": 69,
+      "name": "Dylan Okonkwo",
+      "company": "Brightwell Co",
+      "plan": "Team",
+      "email": "dylan.okonkwo@example.com"
+     },
+     {
+      "id": 70,
+      "name": "Ivo Petrov",
+      "company": "Nordanvind AB",
+      "plan": "Business",
+      "email": "ivo.petrov@example.com"
+     }
+    ],
+    "initial": 5,
+    "fields": [
+     "name",
+     "company"
+    ]
+   }
+  }
+ },
+ "probes": [
+  "Maribel Ortiz",
+  "Kofi Boateng",
+  "Vireo Systems"
+ ],
+ "emptyEndpoints": [
+  "/api/customers"
+ ],
+ "search": {
+  "label": "Search customers",
+  "path": "/api/customers",
+  "first": "an",
+  "rest": "ders",
+  "nameField": "name"
+ },
+ "id": "customers",
+ "set": "dev"
+}

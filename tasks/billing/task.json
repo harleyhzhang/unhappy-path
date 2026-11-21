@@ -1,0 +1,66 @@
+{
+ "endpoints": {},
+ "fixture": {
+  "/api/subscription": {
+   "plan": "Scale Annual",
+   "priceCents": 41500,
+   "seatsUsed": 38,
+   "seatsTotal": 50,
+   "renewsAt": "2027-01-15"
+  },
+  "/api/payments": [
+   {
+    "id": 81,
+    "date": "2026-05-15",
+    "amountCents": 41500,
+    "method": "Mastercard ending 7731",
+    "status": "paid"
+   },
+   {
+    "id": 82,
+    "date": "2026-04-15",
+    "amountCents": 41500,
+    "method": "Mastercard ending 7731",
+    "status": "paid"
+   },
+   {
+    "id": 83,
+    "date": "2026-03-15",
+    "amountCents": 41500,
+    "method": "Amex ending 1009",
+    "status": "refunded"
+   },
+   {
+    "id": 84,
+    "date": "2026-02-15",
+    "amountCents": 41500,
+    "method": "Amex ending 1009",
+    "status": "failed"
+   }
+  ]
+ },
+ "probes": [
+  "Scale Annual",
+  "Mastercard ending 7731",
+  "Amex ending 1009"
+ ],
+ "emptyEndpoints": [
+  "/api/payments"
+ ],
+ "enumFields": [
+  "status"
+ ],
+ "partial": [
+  {
+   "fail": "/api/payments",
+   "probe": "Scale Annual"
+  },
+  {
+   "fail": "/api/subscription",
+   "probe": "Mastercard ending 7731"
+  }
+ ],
+ "id": "billing",
+ "kind": "list",
+ "set": "dev"
+}

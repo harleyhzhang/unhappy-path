@@ -1,0 +1,55 @@
+{
+ "kind": "list",
+ "endpoints": {
+  "/api/releases": "list"
+ },
+ "fixture": {
+  "/api/releases": [
+   {
+    "id": 51,
+    "version": "5.8.0",
+    "title": "Offline drafts",
+    "releasedAt": "2026-06-02",
+    "summary": "Keep writing without a connection."
+   },
+   {
+    "id": 52,
+    "version": "5.7.3",
+    "title": "Printer margins",
+    "releasedAt": "2026-05-20",
+    "summary": "Fixes clipped edges on A5 paper."
+   },
+   {
+    "id": 53,
+    "version": "5.7.0",
+    "title": "Quick switcher",
+    "releasedAt": "2026-05-06",
+    "summary": "Jump to any document from the keyboard."
+   },
+   {
+    "id": 54,
+    "version": "5.6.2",
+    "title": "Calmer alerts",
+    "releasedAt": "2026-04-21",
+    "summary": "Groups repeated alerts into one."
+   },
+   {
+    "id": 55,
+    "version": "5.6.0",
+    "title": "Version history",
+    "releasedAt": "2026-04-07",
+    "summary": "See and restore earlier versions."
+   }
+  ]
+ },
+ "probes": [
+  "Offline drafts",
+  "5.7.3",
+  "Quick switcher"
+ ],
+ "emptyEndpoints": [
+  "/api/releases"
+ ],
+ "id": "releases",
+ "set": "heldout"
+}

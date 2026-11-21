@@ -1,0 +1,37 @@
+{
+ "kind": "form-create",
+ "fixture": {},
+ "probes": [],
+ "emptyEndpoints": [],
+ "submit": {
+  "method": "POST",
+  "path": "/api/tickets",
+  "status": 201,
+  "response": {
+   "id": 913,
+   "reference": "TCK-48213"
+  },
+  "button": "Create ticket",
+  "successProbe": "TCK-48213",
+  "requiredKey": "subject",
+  "fields": [
+   {
+    "label": "Subject",
+    "key": "subject",
+    "value": "Cannot export the March report"
+   },
+   {
+    "label": "Email",
+    "key": "email",
+    "value": "noor.haddad@example.com"
+   },
+   {
+    "label": "Description",
+    "key": "description",
+    "value": "The export button spins and then nothing downloads."
+   }
+  ]
+ },
+ "id": "ticket",
+ "set": "dev"
+}

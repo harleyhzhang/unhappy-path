@@ -1,0 +1,61 @@
+{
+ "/api/articles": {
+  "__search": {
+   "all": [
+    {
+     "id": 1,
+     "title": "Create your first project",
+     "category": "Getting started",
+     "updatedAt": "2026-04-02",
+     "summary": "A short walkthrough of the basics."
+    },
+    {
+     "id": 2,
+     "title": "Invite people to a workspace",
+     "category": "Teams",
+     "updatedAt": "2026-04-03",
+     "summary": "Add colleagues and choose what they can do."
+    },
+    {
+     "id": 3,
+     "title": "Change your notification settings",
+     "category": "Account",
+     "updatedAt": "2026-04-04",
+     "summary": "Pick which updates you hear about."
+    },
+    {
+     "id": 4,
+     "title": "Connect a calendar",
+     "category": "Integrations",
+     "updatedAt": "2026-04-05",
+     "summary": "Sync due dates with your calendar."
+    },
+    {
+     "id": 5,
+     "title": "Archive a project",
+     "category": "Projects",
+     "updatedAt": "2026-04-06",
+     "summary": "Tidy away finished work."
+    },
+    {
+     "id": 6,
+     "title": "Create a project template",
+     "category": "Projects",
+     "updatedAt": "2026-04-07",
+     "summary": "Start new work from a saved layout."
+    },
+    {
+     "id": 7,
+     "title": "Project permissions explained",
+     "category": "Teams",
+     "updatedAt": "2026-04-08",
+     "summary": "Who can see and edit what."
+    }
+   ],
+   "initial": 5,
+   "fields": [
+    "title"
+   ]
+  }
+ }
+}

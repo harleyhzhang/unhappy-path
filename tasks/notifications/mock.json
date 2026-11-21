@@ -1,0 +1,36 @@
+{
+ "/api/notifications": [
+  {
+   "id": 1,
+   "actor": "Maya Okafor",
+   "action": "commented on your task",
+   "project": "Website refresh",
+   "createdAt": "2026-03-02T09:14:00Z",
+   "read": false
+  },
+  {
+   "id": 2,
+   "actor": "Leo Brandt",
+   "action": "assigned you a task",
+   "project": "Q2 planning",
+   "createdAt": "2026-03-02T08:40:00Z",
+   "read": false
+  },
+  {
+   "id": 3,
+   "actor": "Ines Calder",
+   "action": "mentioned you",
+   "project": "Website refresh",
+   "createdAt": "2026-03-01T17:05:00Z",
+   "read": true
+  },
+  {
+   "id": 4,
+   "actor": "Tomas Reyes",
+   "action": "completed a task",
+   "project": "Onboarding",
+   "createdAt": "2026-03-01T11:30:00Z",
+   "read": true
+  }
+ ]
+}

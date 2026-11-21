@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-19",
+  "cohort": "budget-artifacts-v1-repair",
+  "cases": 216,
+  "agent_finished": 207,
+  "deadline_captures": 9,
+  "deadline_normal_flow_passes": 8,
+  "normal_flow_passes": 215,
+  "compile_failures": 1,
+  "measurement_errors": 0,
+  "oracle_positive_controls": 3,
+  "oracle_negative_controls": 8,
+  "oracle_all_passed": true,
+  "independent_arithmetic_check": true,
+  "selected_route_records_checked": 216,
+  "closed_attempt_routes_checked": 241,
+  "forbidden_routes_found": 0,
+  "nested_call_candidates_in_selected_traces": 0,
+  "primary_code_fingerprint_sets": 1,
+  "human_agreement_measured": false,
+  "export_sha256": {
+    "outcomes.csv": "98ad134e12c5730cd0baea9ac957b869a13b93f084b16137063fd6c94999240c",
+    "capture-status.csv": "c799dc37b341ea409c2548ac6a657c76a914d327ebe348d0fba9fddfbbc6dc9c",
+    "evaluation-fingerprints.json": "d9f135473b1f157aeb8f86f9f6939cc55692c6cc3f11818b47ad499d9bc88492",
+    "independent-summary.json": "1cf5cd10aba924168f6f75f1528322a55abc7dc91393c73caf8d2b2087d408ad"
+  },
+  "selected_generation_terminal_completions_verified": 207,
+  "selected_generation_completion_flag_mismatches": 0,
+  "normal_flow_payloads_audited": 71
+}

@@ -1,0 +1,9 @@
+{
+ "POST /api/tickets": {
+  "status": 201,
+  "body": {
+   "id": 1,
+   "reference": "TCK-10001"
+  }
+ }
+}

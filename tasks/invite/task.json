@@ -1,0 +1,37 @@
+{
+ "kind": "form-create",
+ "fixture": {},
+ "probes": [],
+ "emptyEndpoints": [],
+ "submit": {
+  "method": "POST",
+  "path": "/api/invitations",
+  "status": 201,
+  "response": {
+   "id": 377,
+   "code": "INV-73920"
+  },
+  "button": "Send invitation",
+  "successProbe": "INV-73920",
+  "requiredKey": "name",
+  "fields": [
+   {
+    "label": "Full name",
+    "key": "name",
+    "value": "Ottoline Baptiste"
+   },
+   {
+    "label": "Work email",
+    "key": "email",
+    "value": "ottoline.baptiste@example.com"
+   },
+   {
+    "label": "Welcome note",
+    "key": "note",
+    "value": "Glad to have you on the launch team."
+   }
+  ]
+ },
+ "id": "invite",
+ "set": "heldout"
+}

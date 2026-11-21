@@ -1,0 +1,68 @@
+{
+ "id": "notifications",
+ "endpoints": {
+  "/api/notifications": "list"
+ },
+ "fixture": {
+  "/api/notifications": [
+   {
+    "id": 11,
+    "actor": "Priya Natarajan",
+    "action": "requested your review",
+    "project": "Billing migration",
+    "createdAt": "2026-05-11T14:02:00Z",
+    "read": false
+   },
+   {
+    "id": 12,
+    "actor": "Jonas Whitfield",
+    "action": "commented on your task",
+    "project": "Mobile launch",
+    "createdAt": "2026-05-11T13:20:00Z",
+    "read": false
+   },
+   {
+    "id": 13,
+    "actor": "Aiko Tanabe",
+    "action": "assigned you a task",
+    "project": "Billing migration",
+    "createdAt": "2026-05-11T09:45:00Z",
+    "read": true
+   },
+   {
+    "id": 14,
+    "actor": "Samir Haddad",
+    "action": "mentioned you",
+    "project": "Data cleanup",
+    "createdAt": "2026-05-10T18:10:00Z",
+    "read": false
+   },
+   {
+    "id": 15,
+    "actor": "Greta Lindqvist",
+    "action": "completed a task",
+    "project": "Mobile launch",
+    "createdAt": "2026-05-10T10:00:00Z",
+    "read": true
+   },
+   {
+    "id": 16,
+    "actor": "Owen Marchetti",
+    "action": "changed a due date",
+    "project": "Data cleanup",
+    "createdAt": "2026-05-09T16:25:00Z",
+    "read": true
+   }
+  ]
+ },
+ "probes": [
+  "Priya Natarajan",
+  "Jonas Whitfield",
+  "Billing migration"
+ ],
+ "emptyEndpoints": [
+  "/api/notifications"
+ ],
+ "kind": "list",
+ "set": "dev"
+}

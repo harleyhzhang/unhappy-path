@@ -1,0 +1,73 @@
+{
+ "kind": "list",
+ "endpoints": {},
+ "fixture": {
+  "/api/event": {
+   "id": 4,
+   "name": "Coastal Robotics Forum",
+   "venue": "Pier 9 Exchange Hall",
+   "date": "2026-09-12",
+   "capacity": 340
+  },
+  "/api/attendees": [
+   {
+    "id": 71,
+    "name": "Imogen Achterberg",
+    "organisation": "Saltmarsh Labs",
+    "ticket": "speaker",
+    "checkedIn": true
+   },
+   {
+    "id": 72,
+    "name": "Tunde Ravensworth",
+    "organisation": "Keel Dynamics",
+    "ticket": "vip",
+    "checkedIn": false
+   },
+   {
+    "id": 73,
+    "name": "Soraya Lindholm",
+    "organisation": "Saltmarsh Labs",
+    "ticket": "standard",
+    "checkedIn": true
+   },
+   {
+    "id": 74,
+    "name": "Mateus Quill",
+    "organisation": "Open Tide Institute",
+    "ticket": "standard",
+    "checkedIn": false
+   },
+   {
+    "id": 75,
+    "name": "Priscilla Naidoo",
+    "organisation": "Keel Dynamics",
+    "ticket": "standard",
+    "checkedIn": true
+   }
+  ]
+ },
+ "probes": [
+  "Coastal Robotics Forum",
+  "Pier 9 Exchange Hall",
+  "Imogen Achterberg"
+ ],
+ "emptyEndpoints": [
+  "/api/attendees"
+ ],
+ "enumFields": [
+  "ticket"
+ ],
+ "partial": [
+  {
+   "fail": "/api/attendees",
+   "probe": "Pier 9 Exchange Hall"
+  },
+  {
+   "fail": "/api/event",
+   "probe": "Imogen Achterberg"
+  }
+ ],
+ "id": "event",
+ "set": "heldout"
+}

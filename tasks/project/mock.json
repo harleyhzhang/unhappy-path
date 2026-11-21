@@ -1,0 +1,29 @@
+{
+ "/api/project": {
+  "id": 3,
+  "name": "Spring catalogue",
+  "owner": "Ada Brooks",
+  "status": "on track",
+  "dueDate": "2026-03-20"
+ },
+ "/api/tasks": [
+  {
+   "id": 1,
+   "title": "Draft product copy",
+   "assignee": "Sam Ortega",
+   "done": true
+  },
+  {
+   "id": 2,
+   "title": "Shoot cover photo",
+   "assignee": "Lena Fischer",
+   "done": false
+  },
+  {
+   "id": 3,
+   "title": "Proofread prices",
+   "assignee": "Ada Brooks",
+   "done": false
+  }
+ ]
+}

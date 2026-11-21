@@ -1,0 +1,36 @@
+{
+ "/api/members": [
+  {
+   "id": 1,
+   "name": "Nora Feld",
+   "role": "Product Designer",
+   "department": "Design",
+   "location": "Berlin",
+   "email": "nora.feld@example.com"
+  },
+  {
+   "id": 2,
+   "name": "Kwame Mensah",
+   "role": "Backend Engineer",
+   "department": "Engineering",
+   "location": "Accra",
+   "email": "kwame.mensah@example.com"
+  },
+  {
+   "id": 3,
+   "name": "Lucia Romano",
+   "role": "Engineering Manager",
+   "department": "Engineering",
+   "location": "Milan",
+   "email": "lucia.romano@example.com"
+  },
+  {
+   "id": 4,
+   "name": "Dev Patel",
+   "role": "Account Executive",
+   "department": "Sales",
+   "location": "Toronto",
+   "email": "dev.patel@example.com"
+  }
+ ]
+}

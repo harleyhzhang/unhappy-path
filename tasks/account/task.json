@@ -1,0 +1,66 @@
+{
+ "kind": "list",
+ "endpoints": {},
+ "fixture": {
+  "/api/account": {
+   "id": 7,
+   "name": "Operating Reserve",
+   "holder": "Marrow & Finch Cycles",
+   "last4": "9186",
+   "balanceCents": 5630915
+  },
+  "/api/transactions": [
+   {
+    "id": 91,
+    "date": "2026-06-04",
+    "description": "Tubing wholesale order",
+    "amountCents": -312540,
+    "status": "posted"
+   },
+   {
+    "id": 92,
+    "date": "2026-06-03",
+    "description": "Workshop rent",
+    "amountCents": -185000,
+    "status": "posted"
+   },
+   {
+    "id": 93,
+    "date": "2026-06-03",
+    "description": "Deposit from Okafor Events",
+    "amountCents": 95000,
+    "status": "pending"
+   },
+   {
+    "id": 94,
+    "date": "2026-06-01",
+    "description": "Trade fair booking",
+    "amountCents": -42075,
+    "status": "declined"
+   }
+  ]
+ },
+ "probes": [
+  "Operating Reserve",
+  "Marrow & Finch Cycles",
+  "Tubing wholesale order"
+ ],
+ "emptyEndpoints": [
+  "/api/transactions"
+ ],
+ "enumFields": [
+  "status"
+ ],
+ "partial": [
+  {
+   "fail": "/api/transactions",
+   "probe": "Marrow & Finch Cycles"
+  },
+  {
+   "fail": "/api/account",
+   "probe": "Tubing wholesale order"
+  }
+ ],
+ "id": "account",
+ "set": "heldout"
+}

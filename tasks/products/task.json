@@ -1,0 +1,103 @@
+{
+ "kind": "search",
+ "fixture": {
+  "/api/products": {
+   "search": {
+    "all": [
+     {
+      "id": 41,
+      "name": "Trail running vest",
+      "sku": "TR-8801",
+      "category": "Apparel",
+      "stock": 18
+     },
+     {
+      "id": 42,
+      "name": "Insulated flask 750ml",
+      "sku": "IF-7750",
+      "category": "Hydration",
+      "stock": 44
+     },
+     {
+      "id": 43,
+      "name": "Merino neck gaiter",
+      "sku": "MN-6612",
+      "category": "Apparel",
+      "stock": 27
+     },
+     {
+      "id": 44,
+      "name": "Folding camp stool",
+      "sku": "FC-3090",
+      "category": "Camping",
+      "stock": 12
+     },
+     {
+      "id": 45,
+      "name": "Headlamp 400 lumen",
+      "sku": "HL-0400",
+      "category": "Lighting",
+      "stock": 35
+     },
+     {
+      "id": 46,
+      "name": "Braided charging cable",
+      "sku": "BC-2210",
+      "category": "Electronics",
+      "stock": 80
+     },
+     {
+      "id": 47,
+      "name": "Bike cable lock",
+      "sku": "BL-2277",
+      "category": "Cycling",
+      "stock": 16
+     },
+     {
+      "id": 48,
+      "name": "Camp cooking pot",
+      "sku": "CK-3141",
+      "category": "Camping",
+      "stock": 9
+     },
+     {
+      "id": 49,
+      "name": "Carabiner set of four",
+      "sku": "CS-0404",
+      "category": "Climbing",
+      "stock": 52
+     },
+     {
+      "id": 50,
+      "name": "Pocket first aid kit",
+      "sku": "PF-9120",
+      "category": "Safety",
+      "stock": 23
+     }
+    ],
+    "initial": 5,
+    "fields": [
+     "name",
+     "sku"
+    ]
+   }
+  }
+ },
+ "probes": [
+  "Trail running vest",
+  "Insulated flask 750ml",
+  "Headlamp 400 lumen"
+ ],
+ "emptyEndpoints": [
+  "/api/products"
+ ],
+ "search": {
+  "label": "Search products",
+  "path": "/api/products",
+  "first": "ca",
+  "rest": "ble",
+  "nameField": "name"
+ },
+ "id": "products",
+ "set": "heldout"
+}

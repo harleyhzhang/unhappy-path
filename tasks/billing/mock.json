@@ -1,0 +1,32 @@
+{
+ "/api/subscription": {
+  "plan": "Team Monthly",
+  "priceCents": 9900,
+  "seatsUsed": 7,
+  "seatsTotal": 10,
+  "renewsAt": "2026-03-01"
+ },
+ "/api/payments": [
+  {
+   "id": 1,
+   "date": "2026-02-01",
+   "amountCents": 9900,
+   "method": "Visa ending 4242",
+   "status": "paid"
+  },
+  {
+   "id": 2,
+   "date": "2026-01-01",
+   "amountCents": 9900,
+   "method": "Visa ending 4242",
+   "status": "paid"
+  },
+  {
+   "id": 3,
+   "date": "2025-12-01",
+   "amountCents": 9900,
+   "method": "Visa ending 4242",
+   "status": "failed"
+  }
+ ]
+}

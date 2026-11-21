@@ -1,0 +1,34 @@
+{
+ "kind": "form-edit",
+ "fixture": {
+  "/api/workspace": {
+   "name": "Tamarind Freight Co",
+   "supportEmail": "desk@tamarindfreight.example.com",
+   "description": "Cold-chain logistics across the coast."
+  }
+ },
+ "probes": [],
+ "emptyEndpoints": [],
+ "loaded": {
+  "label": "Workspace name",
+  "key": "name",
+  "value": "Tamarind Freight Co"
+ },
+ "submit": {
+  "method": "PUT",
+  "path": "/api/workspace",
+  "status": 200,
+  "echo": true,
+  "button": "Save settings",
+  "requiredKey": "name",
+  "fields": [
+   {
+    "label": "Workspace name",
+    "key": "name",
+    "value": "Tamarind Freight & Cold Storage"
+   }
+  ]
+ },
+ "id": "workspace",
+ "set": "heldout"
+}

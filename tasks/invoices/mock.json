@@ -1,0 +1,28 @@
+{
+ "/api/invoices": [
+  {
+   "id": 1,
+   "number": "INV-1001",
+   "customer": "Harbor Coffee Co.",
+   "issuedAt": "2026-02-03",
+   "amountCents": 124000,
+   "status": "paid"
+  },
+  {
+   "id": 2,
+   "number": "INV-1002",
+   "customer": "Northline Studio",
+   "issuedAt": "2026-02-10",
+   "amountCents": 56050,
+   "status": "due"
+  },
+  {
+   "id": 3,
+   "number": "INV-1003",
+   "customer": "Quill & Pine",
+   "issuedAt": "2026-01-18",
+   "amountCents": 310000,
+   "status": "overdue"
+  }
+ ]
+}

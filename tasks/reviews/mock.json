@@ -1,0 +1,34 @@
+{
+ "/api/product": {
+  "id": 7,
+  "name": "Ridgeline Trail Backpack 28L",
+  "averageRating": 4.3,
+  "reviewCount": 3
+ },
+ "/api/reviews": [
+  {
+   "id": 1,
+   "reviewer": "Paula N.",
+   "rating": 5,
+   "title": "Carried it for a week",
+   "body": "Comfortable straps and plenty of pockets. Held up in the rain.",
+   "createdAt": "2026-02-11"
+  },
+  {
+   "id": 2,
+   "reviewer": "Ben S.",
+   "rating": 4,
+   "title": "Solid daypack",
+   "body": "Slightly smaller than expected but well made.",
+   "createdAt": "2026-01-29"
+  },
+  {
+   "id": 3,
+   "reviewer": "Imani K.",
+   "rating": 4,
+   "title": "Good value",
+   "body": "Zippers feel sturdy. Would buy again.",
+   "createdAt": "2026-01-12"
+  }
+ ]
+}

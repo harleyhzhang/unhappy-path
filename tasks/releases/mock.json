@@ -1,0 +1,32 @@
+{
+ "/api/releases": [
+  {
+   "id": 1,
+   "version": "2.4.0",
+   "title": "Shared folders",
+   "releasedAt": "2026-03-04",
+   "summary": "Share a folder with your whole team."
+  },
+  {
+   "id": 2,
+   "version": "2.3.2",
+   "title": "Sync fixes",
+   "releasedAt": "2026-02-18",
+   "summary": "Fixes a stall when syncing large files."
+  },
+  {
+   "id": 3,
+   "version": "2.3.0",
+   "title": "Dark theme",
+   "releasedAt": "2026-01-27",
+   "summary": "A dark theme that follows your system setting."
+  },
+  {
+   "id": 4,
+   "version": "2.2.1",
+   "title": "Startup speed",
+   "releasedAt": "2026-01-09",
+   "summary": "The app opens about twice as fast."
+  }
+ ]
+}

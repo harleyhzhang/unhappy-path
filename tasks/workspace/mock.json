@@ -1,0 +1,11 @@
+{
+ "/api/workspace": {
+  "name": "Larkspur Studio",
+  "supportEmail": "help@larkspur.example.com",
+  "description": "Brand and packaging design."
+ },
+ "PUT /api/workspace": {
+  "status": 200,
+  "echo": true
+ }
+}

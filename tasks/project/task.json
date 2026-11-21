@@ -1,0 +1,68 @@
+{
+ "endpoints": {},
+ "fixture": {
+  "/api/project": {
+   "id": 44,
+   "name": "Harbourfront relaunch",
+   "owner": "Nkechi Obi",
+   "status": "at risk",
+   "dueDate": "2026-06-12"
+  },
+  "/api/tasks": [
+   {
+    "id": 71,
+    "title": "Audit old landing pages",
+    "assignee": "Wren Castillo",
+    "done": true
+   },
+   {
+    "id": 72,
+    "title": "Write migration plan",
+    "assignee": "Nkechi Obi",
+    "done": true
+   },
+   {
+    "id": 73,
+    "title": "Rebuild pricing page",
+    "assignee": "Jun Takeda",
+    "done": false
+   },
+   {
+    "id": 74,
+    "title": "Set up redirects",
+    "assignee": "Wren Castillo",
+    "done": false
+   },
+   {
+    "id": 75,
+    "title": "Stakeholder walkthrough",
+    "assignee": "Elif Arslan",
+    "done": false
+   }
+  ]
+ },
+ "probes": [
+  "Harbourfront relaunch",
+  "Rebuild pricing page",
+  "Jun Takeda"
+ ],
+ "emptyEndpoints": [
+  "/api/tasks"
+ ],
+ "enumFields": [
+  "status"
+ ],
+ "partial": [
+  {
+   "fail": "/api/tasks",
+   "probe": "Harbourfront relaunch"
+  },
+  {
+   "fail": "/api/project",
+   "probe": "Rebuild pricing page"
+  }
+ ],
+ "id": "project",
+ "kind": "list",
+ "set": "dev"
+}

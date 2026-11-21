@@ -1,0 +1,63 @@
+{
+ "id": "invoices",
+ "endpoints": {
+  "/api/invoices": "list"
+ },
+ "fixture": {
+  "/api/invoices": [
+   {
+    "id": 21,
+    "number": "INV-2041",
+    "customer": "Bluefin Logistics",
+    "issuedAt": "2026-04-02",
+    "amountCents": 882500,
+    "status": "paid"
+   },
+   {
+    "id": 22,
+    "number": "INV-2042",
+    "customer": "Marlowe Dental Group",
+    "issuedAt": "2026-04-09",
+    "amountCents": 41999,
+    "status": "due"
+   },
+   {
+    "id": 23,
+    "number": "INV-2043",
+    "customer": "Tidewater Print Shop",
+    "issuedAt": "2026-03-15",
+    "amountCents": 1250000,
+    "status": "overdue"
+   },
+   {
+    "id": 24,
+    "number": "INV-2044",
+    "customer": "Juniper Yoga",
+    "issuedAt": "2026-04-20",
+    "amountCents": 18000,
+    "status": "due"
+   },
+   {
+    "id": 25,
+    "number": "INV-2045",
+    "customer": "Kestrel Architects",
+    "issuedAt": "2026-04-22",
+    "amountCents": 407250,
+    "status": "paid"
+   }
+  ]
+ },
+ "probes": [
+  "INV-2041",
+  "Marlowe Dental Group",
+  "Tidewater Print Shop"
+ ],
+ "emptyEndpoints": [
+  "/api/invoices"
+ ],
+ "enumFields": [
+  "status"
+ ],
+ "kind": "list",
+ "set": "dev"
+}

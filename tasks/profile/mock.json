@@ -1,0 +1,11 @@
+{
+ "/api/profile": {
+  "name": "Jordan Avery",
+  "email": "jordan.avery@example.com",
+  "bio": "Product manager. Weekend cyclist."
+ },
+ "PUT /api/profile": {
+  "status": 200,
+  "echo": true
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "/api/customers": {
+  "__search": {
+   "all": [
+    {
+     "id": 1,
+     "name": "Rosa Whitaker",
+     "company": "Pinecrest Bakery",
+     "plan": "Starter",
+     "email": "rosa.whitaker@example.com"
+    },
+    {
+     "id": 2,
+     "name": "Hugo Ferrand",
+     "company": "Atelier Nord",
+     "plan": "Team",
+     "email": "hugo.ferrand@example.com"
+    },
+    {
+     "id": 3,
+     "name": "Mei Sugimoto",
+     "company": "Kite Robotics",
+     "plan": "Business",
+     "email": "mei.sugimoto@example.com"
+    },
+    {
+     "id": 4,
+     "name": "Omar Aziz",
+     "company": "Delta Freight",
+     "plan": "Team",
+     "email": "omar.aziz@example.com"
+    },
+    {
+     "id": 5,
+     "name": "Tess Morrow",
+     "company": "Hollow Oak Books",
+     "plan": "Starter",
+     "email": "tess.morrow@example.com"
+    },
+    {
+     "id": 6,
+     "name": "Rosalind Peck",
+     "company": "Ferrand & Sons",
+     "plan": "Business",
+     "email": "rosalind.peck@example.com"
+    },
+    {
+     "id": 7,
+     "name": "Hugh Rosario",
+     "company": "Kite Robotics",
+     "plan": "Team",
+     "email": "hugh.rosario@example.com"
+    }
+   ],
+   "initial": 5,
+   "fields": [
+    "name",
+    "company"
+   ]
+  }
+ }
+}

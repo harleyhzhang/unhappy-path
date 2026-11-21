@@ -1,0 +1,39 @@
+{
+ "/api/event": {
+  "id": 1,
+  "name": "Northside Design Meetup",
+  "venue": "The Glasshouse",
+  "date": "2026-04-18",
+  "capacity": 120
+ },
+ "/api/attendees": [
+  {
+   "id": 1,
+   "name": "Carmen Abidi",
+   "organisation": "Studio Loop",
+   "ticket": "standard",
+   "checkedIn": true
+  },
+  {
+   "id": 2,
+   "name": "Felix Okada",
+   "organisation": "Brightline",
+   "ticket": "speaker",
+   "checkedIn": true
+  },
+  {
+   "id": 3,
+   "name": "Nadia Verhoeven",
+   "organisation": "Independent",
+   "ticket": "vip",
+   "checkedIn": false
+  },
+  {
+   "id": 4,
+   "name": "Paulo Iverson",
+   "organisation": "Studio Loop",
+   "ticket": "standard",
+   "checkedIn": false
+  }
+ ]
+}

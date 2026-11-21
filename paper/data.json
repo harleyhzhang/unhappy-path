@@ -1,0 +1,10156 @@
+{
+ "models": [
+  {
+   "id": "claude-fable-5.2",
+   "name": "Claude Fable 5.2"
+  },
+  {
+   "id": "claude-opus-5.5",
+   "name": "Claude Opus 5.5"
+  },
+  {
+   "id": "muse-wonder",
+   "name": "Muse Wonder"
+  },
+  {
+   "id": "grok-4.7",
+   "name": "Grok 4.7"
+  },
+  {
+   "id": "gpt-6-astra",
+   "name": "GPT-6 Astra"
+  },
+  {
+   "id": "gpt-6.1-sol",
+   "name": "GPT-6.1 Sol"
+  },
+  {
+   "id": "kimi-k3",
+   "name": "Kimi K3"
+  }
+ ],
+ "tasks": [
+  "releases",
+  "account",
+  "event",
+  "products",
+  "invite",
+  "workspace"
+ ],
+ "harder": [
+  "recover",
+  "garbage",
+  "partial",
+  "long",
+  "narrow",
+  "motion",
+  "a11y",
+  "announce"
+ ],
+ "stakes": [
+  "slow",
+  "failed",
+  "empty",
+  "zoom",
+  "spacing",
+  "keyboard",
+  "stale",
+  "double",
+  "failsave",
+  "invalid"
+ ],
+ "counts": {
+  "apps": 252,
+  "gate_pass": 251,
+  "finished": 243,
+  "deadline": 9,
+  "verdicts": 3402
+ },
+ "sensitivity": {
+  "default": {
+   "all": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.956349
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.786045
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.773479
+    },
+    "grok-4.7": {
+     "rank": 4,
+     "score": 0.709325
+    },
+    "gpt-6-astra": {
+     "rank": 5,
+     "score": 0.62996
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.572751
+    },
+    "kimi-k3": {
+     "rank": 7,
+     "score": 0.544974
+    }
+   },
+   "no recover": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.948148
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.813757
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.777778
+    },
+    "grok-4.7": {
+     "rank": 4,
+     "score": 0.699471
+    },
+    "gpt-6-astra": {
+     "rank": 6,
+     "score": 0.585714
+    },
+    "gpt-6.1-sol": {
+     "rank": 7,
+     "score": 0.512963
+    },
+    "kimi-k3": {
+     "rank": 5,
+     "score": 0.612037
+    }
+   },
+   "no garbage": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.97037
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.809524
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.778571
+    },
+    "grok-4.7": {
+     "rank": 4,
+     "score": 0.754762
+    },
+    "gpt-6-astra": {
+     "rank": 5,
+     "score": 0.625397
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.593915
+    },
+    "kimi-k3": {
+     "rank": 7,
+     "score": 0.565212
+    }
+   },
+   "no partial": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.956349
+    },
+    "claude-opus-5.5": {
+     "rank": 3,
+     "score": 0.783069
+    },
+    "muse-wonder": {
+     "rank": 2,
+     "score": 0.800265
+    },
+    "grok-4.7": {
+     "rank": 4,
+     "score": 0.734127
+    },
+    "gpt-6-astra": {
+     "rank": 5,
+     "score": 0.650794
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.592593
+    },
+    "kimi-k3": {
+     "rank": 7,
+     "score": 0.558862
+    }
+   },
+   "no long": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.953704
+    },
+    "claude-opus-5.5": {
+     "rank": 3,
+     "score": 0.800265
+    },
+    "muse-wonder": {
+     "rank": 2,
+     "score": 0.806878
+    },
+    "grok-4.7": {
+     "rank": 4,
+     "score": 0.772487
+    },
+    "gpt-6-astra": {
+     "rank": 5,
+     "score": 0.666667
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.630952
+    },
+    "kimi-k3": {
+     "rank": 7,
+     "score": 0.578704
+    }
+   },
+   "no narrow": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.948148
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.795238
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.746825
+    },
+    "grok-4.7": {
+     "rank": 4,
+     "score": 0.663757
+    },
+    "gpt-6-astra": {
+     "rank": 5,
+     "score": 0.629365
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.544709
+    },
+    "kimi-k3": {
+     "rank": 7,
+     "score": 0.486772
+    }
+   },
+   "no motion": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.977778
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.751587
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.746825
+    },
+    "grok-4.7": {
+     "rank": 4,
+     "score": 0.698677
+    },
+    "gpt-6-astra": {
+     "rank": 5,
+     "score": 0.57381
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.525926
+    },
+    "kimi-k3": {
+     "rank": 7,
+     "score": 0.470899
+    }
+   },
+   "no a11y": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.948148
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.783333
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.78254
+    },
+    "grok-4.7": {
+     "rank": 6,
+     "score": 0.663757
+    },
+    "gpt-6-astra": {
+     "rank": 4,
+     "score": 0.75
+    },
+    "gpt-6.1-sol": {
+     "rank": 5,
+     "score": 0.686508
+    },
+    "kimi-k3": {
+     "rank": 7,
+     "score": 0.547619
+    }
+   },
+   "no announce": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.948148
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.751587
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.748148
+    },
+    "grok-4.7": {
+     "rank": 4,
+     "score": 0.687566
+    },
+    "gpt-6-astra": {
+     "rank": 5,
+     "score": 0.557937
+    },
+    "gpt-6.1-sol": {
+     "rank": 7,
+     "score": 0.494444
+    },
+    "kimi-k3": {
+     "rank": 6,
+     "score": 0.539683
+    }
+   },
+   "no motion+garbage": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 1.0
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.774074
+    },
+    "muse-wonder": {
+     "rank": 4,
+     "score": 0.747222
+    },
+    "grok-4.7": {
+     "rank": 3,
+     "score": 0.751852
+    },
+    "gpt-6-astra": {
+     "rank": 5,
+     "score": 0.562037
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.547222
+    },
+    "kimi-k3": {
+     "rank": 7,
+     "score": 0.482407
+    }
+   }
+  },
+  "told": {
+   "all": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.984127
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.958664
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.954034
+    },
+    "grok-4.7": {
+     "rank": 5,
+     "score": 0.916667
+    },
+    "gpt-6-astra": {
+     "rank": 7,
+     "score": 0.82672
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.847884
+    },
+    "kimi-k3": {
+     "rank": 4,
+     "score": 0.936839
+    }
+   },
+   "no recover": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.981481
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.951323
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.946561
+    },
+    "grok-4.7": {
+     "rank": 5,
+     "score": 0.912698
+    },
+    "gpt-6-astra": {
+     "rank": 7,
+     "score": 0.805159
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.827249
+    },
+    "kimi-k3": {
+     "rank": 4,
+     "score": 0.92619
+    }
+   },
+   "no garbage": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.981481
+    },
+    "claude-opus-5.5": {
+     "rank": 4,
+     "score": 0.951323
+    },
+    "muse-wonder": {
+     "rank": 2,
+     "score": 0.962434
+    },
+    "grok-4.7": {
+     "rank": 5,
+     "score": 0.920635
+    },
+    "gpt-6-astra": {
+     "rank": 7,
+     "score": 0.805159
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.843122
+    },
+    "kimi-k3": {
+     "rank": 3,
+     "score": 0.95582
+    }
+   },
+   "no partial": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.984127
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.957672
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.951058
+    },
+    "grok-4.7": {
+     "rank": 5,
+     "score": 0.912698
+    },
+    "gpt-6-astra": {
+     "rank": 7,
+     "score": 0.820767
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.839947
+    },
+    "kimi-k3": {
+     "rank": 4,
+     "score": 0.949735
+    }
+   },
+   "no long": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.981481
+    },
+    "claude-opus-5.5": {
+     "rank": 3,
+     "score": 0.955026
+    },
+    "muse-wonder": {
+     "rank": 2,
+     "score": 0.956349
+    },
+    "grok-4.7": {
+     "rank": 5,
+     "score": 0.920635
+    },
+    "gpt-6-astra": {
+     "rank": 7,
+     "score": 0.808862
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.842593
+    },
+    "kimi-k3": {
+     "rank": 4,
+     "score": 0.929894
+    }
+   },
+   "no narrow": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.981481
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.959259
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.946561
+    },
+    "grok-4.7": {
+     "rank": 5,
+     "score": 0.920635
+    },
+    "gpt-6-astra": {
+     "rank": 7,
+     "score": 0.800529
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.817989
+    },
+    "kimi-k3": {
+     "rank": 4,
+     "score": 0.934127
+    }
+   },
+   "no motion": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 1.0
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.992063
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.957672
+    },
+    "grok-4.7": {
+     "rank": 5,
+     "score": 0.912698
+    },
+    "gpt-6-astra": {
+     "rank": 7,
+     "score": 0.809788
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.840212
+    },
+    "kimi-k3": {
+     "rank": 4,
+     "score": 0.937302
+    }
+   },
+   "no a11y": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.981481
+    },
+    "claude-opus-5.5": {
+     "rank": 5,
+     "score": 0.951323
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.965079
+    },
+    "grok-4.7": {
+     "rank": 7,
+     "score": 0.920635
+    },
+    "gpt-6-astra": {
+     "rank": 2,
+     "score": 0.972222
+    },
+    "gpt-6.1-sol": {
+     "rank": 4,
+     "score": 0.953968
+    },
+    "kimi-k3": {
+     "rank": 6,
+     "score": 0.93545
+    }
+   },
+   "no announce": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 0.981481
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.951323
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.946561
+    },
+    "grok-4.7": {
+     "rank": 5,
+     "score": 0.912698
+    },
+    "gpt-6-astra": {
+     "rank": 7,
+     "score": 0.79127
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.817989
+    },
+    "kimi-k3": {
+     "rank": 4,
+     "score": 0.92619
+    }
+   },
+   "no motion+garbage": {
+    "claude-fable-5.2": {
+     "rank": 1,
+     "score": 1.0
+    },
+    "claude-opus-5.5": {
+     "rank": 2,
+     "score": 0.990741
+    },
+    "muse-wonder": {
+     "rank": 3,
+     "score": 0.968519
+    },
+    "grok-4.7": {
+     "rank": 5,
+     "score": 0.916667
+    },
+    "gpt-6-astra": {
+     "rank": 7,
+     "score": 0.783333
+    },
+    "gpt-6.1-sol": {
+     "rank": 6,
+     "score": 0.835185
+    },
+    "kimi-k3": {
+     "rank": 4,
+     "score": 0.961111
+    }
+   }
+  }
+ },
+ "overall": {
+  "claude-fable-5.2": {
+   "default": {
+    "harder": 0.956349,
+    "lo": 0.900794,
+    "hi": 1.0,
+    "stakes": 0.990741,
+    "gate_fail": 0,
+    "median_min": 1.6,
+    "deadline": 0
+   },
+   "told": {
+    "harder": 0.984127,
+    "lo": 0.952381,
+    "hi": 1.0,
+    "stakes": 1.0,
+    "gate_fail": 0,
+    "median_min": 3.5,
+    "deadline": 0
+   },
+   "delta": {
+    "mean": 0.027778,
+    "lo": 0.0,
+    "hi": 0.083333
+   }
+  },
+  "claude-opus-5.5": {
+   "default": {
+    "harder": 0.786045,
+    "lo": 0.679563,
+    "hi": 0.893519,
+    "stakes": 1.0,
+    "gate_fail": 0,
+    "median_min": 1.2,
+    "deadline": 0
+   },
+   "told": {
+    "harder": 0.958664,
+    "lo": 0.921627,
+    "hi": 0.993056,
+    "stakes": 0.981481,
+    "gate_fail": 0,
+    "median_min": 2.5,
+    "deadline": 0
+   },
+   "delta": {
+    "mean": 0.172619,
+    "lo": 0.069444,
+    "hi": 0.269841
+   }
+  },
+  "muse-wonder": {
+   "default": {
+    "harder": 0.773479,
+    "lo": 0.636905,
+    "hi": 0.902778,
+    "stakes": 1.0,
+    "gate_fail": 0,
+    "median_min": 1.2,
+    "deadline": 0
+   },
+   "told": {
+    "harder": 0.954034,
+    "lo": 0.924603,
+    "hi": 0.983796,
+    "stakes": 0.972222,
+    "gate_fail": 0,
+    "median_min": 1.6,
+    "deadline": 0
+   },
+   "delta": {
+    "mean": 0.180556,
+    "lo": 0.055556,
+    "hi": 0.305556
+   }
+  },
+  "grok-4.7": {
+   "default": {
+    "harder": 0.709325,
+    "lo": 0.577381,
+    "hi": 0.849206,
+    "stakes": 0.993056,
+    "gate_fail": 0,
+    "median_min": 4.1,
+    "deadline": 0
+   },
+   "told": {
+    "harder": 0.916667,
+    "lo": 0.805556,
+    "hi": 1.0,
+    "stakes": 0.916667,
+    "gate_fail": 1,
+    "median_min": 18.6,
+    "deadline": 9
+   },
+   "delta": {
+    "mean": 0.207341,
+    "lo": -0.026786,
+    "hi": 0.384921
+   }
+  },
+  "gpt-6-astra": {
+   "default": {
+    "harder": 0.62996,
+    "lo": 0.494048,
+    "hi": 0.769841,
+    "stakes": 0.981481,
+    "gate_fail": 0,
+    "median_min": 3.2,
+    "deadline": 0
+   },
+   "told": {
+    "harder": 0.82672,
+    "lo": 0.78373,
+    "hi": 0.868717,
+    "stakes": 0.990741,
+    "gate_fail": 0,
+    "median_min": 4.8,
+    "deadline": 0
+   },
+   "delta": {
+    "mean": 0.196759,
+    "lo": 0.050926,
+    "hi": 0.349537
+   }
+  },
+  "gpt-6.1-sol": {
+   "default": {
+    "harder": 0.572751,
+    "lo": 0.481481,
+    "hi": 0.664021,
+    "stakes": 0.972222,
+    "gate_fail": 0,
+    "median_min": 4.5,
+    "deadline": 0
+   },
+   "told": {
+    "harder": 0.847884,
+    "lo": 0.814815,
+    "hi": 0.880952,
+    "stakes": 0.972222,
+    "gate_fail": 0,
+    "median_min": 6.3,
+    "deadline": 0
+   },
+   "delta": {
+    "mean": 0.275132,
+    "lo": 0.199735,
+    "hi": 0.354497
+   }
+  },
+  "kimi-k3": {
+   "default": {
+    "harder": 0.544974,
+    "lo": 0.369048,
+    "hi": 0.730489,
+    "stakes": 0.964286,
+    "gate_fail": 0,
+    "median_min": 0.4,
+    "deadline": 0
+   },
+   "told": {
+    "harder": 0.936839,
+    "lo": 0.897487,
+    "hi": 0.97619,
+    "stakes": 0.992063,
+    "gate_fail": 0,
+    "median_min": 1.5,
+    "deadline": 0
+   },
+   "delta": {
+    "mean": 0.391865,
+    "lo": 0.218254,
+    "hi": 0.565476
+   }
+  }
+ },
+ "categories": {
+  "claude-fable-5.2|default": {
+   "a11y": 1.0,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 1.0,
+   "failsave": 1.0,
+   "garbage": 0.866667,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 1.0,
+   "motion": 0.833333,
+   "narrow": 1.0,
+   "partial": 1.0,
+   "recover": 1.0,
+   "slow": 0.933333,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 1.0
+  },
+  "claude-fable-5.2|told": {
+   "a11y": 1.0,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 1.0,
+   "failsave": 1.0,
+   "garbage": 1.0,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 1.0,
+   "motion": 0.888889,
+   "narrow": 1.0,
+   "partial": 1.0,
+   "recover": 1.0,
+   "slow": 1.0,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 1.0
+  },
+  "claude-opus-5.5|default": {
+   "a11y": 0.777778,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 1.0,
+   "failsave": 1.0,
+   "garbage": 0.6,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 0.583333,
+   "motion": 1.0,
+   "narrow": 0.722222,
+   "partial": 0.833333,
+   "recover": 0.533333,
+   "slow": 1.0,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 1.0
+  },
+  "claude-opus-5.5|told": {
+   "a11y": 1.0,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 1.0,
+   "failsave": 1.0,
+   "garbage": 1.0,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 1.0,
+   "motion": 0.777778,
+   "narrow": 0.944444,
+   "partial": 1.0,
+   "recover": 1.0,
+   "slow": 0.866667,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 1.0
+  },
+  "muse-wonder|default": {
+   "a11y": 0.722222,
+   "announce": 0.944444,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 1.0,
+   "failsave": 1.0,
+   "garbage": 0.666667,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 0.333333,
+   "motion": 0.944444,
+   "narrow": 0.944444,
+   "partial": 0.0,
+   "recover": 0.733333,
+   "slow": 1.0,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 1.0
+  },
+  "muse-wonder|told": {
+   "a11y": 0.888889,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 0.933333,
+   "failsave": 1.0,
+   "garbage": 0.866667,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 0.916667,
+   "motion": 0.944444,
+   "narrow": 1.0,
+   "partial": 1.0,
+   "recover": 1.0,
+   "slow": 0.866667,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 1.0
+  },
+  "grok-4.7|default": {
+   "a11y": 1.0,
+   "announce": 0.833333,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 0.933333,
+   "failsave": 1.0,
+   "garbage": 0.333333,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 0.0,
+   "motion": 0.777778,
+   "narrow": 1.0,
+   "partial": 0.0,
+   "recover": 0.733333,
+   "slow": 1.0,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 1.0
+  },
+  "grok-4.7|told": {
+   "a11y": 0.888889,
+   "announce": 0.944444,
+   "double": 0.833333,
+   "empty": 1.0,
+   "failed": 0.933333,
+   "failsave": 0.833333,
+   "garbage": 0.933333,
+   "invalid": 0.833333,
+   "keyboard": 0.944444,
+   "long": 0.916667,
+   "motion": 0.944444,
+   "narrow": 0.888889,
+   "partial": 1.0,
+   "recover": 1.0,
+   "slow": 1.0,
+   "spacing": 0.888889,
+   "stale": 1.0,
+   "zoom": 0.888889
+  },
+  "gpt-6-astra|default": {
+   "a11y": 0.0,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 1.0,
+   "failsave": 1.0,
+   "garbage": 0.666667,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 0.25,
+   "motion": 0.888889,
+   "narrow": 0.722222,
+   "partial": 0.0,
+   "recover": 1.0,
+   "slow": 1.0,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 0.888889
+  },
+  "gpt-6-astra|told": {
+   "a11y": 0.055556,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 1.0,
+   "failsave": 1.0,
+   "garbage": 1.0,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 1.0,
+   "motion": 0.888889,
+   "narrow": 0.944444,
+   "partial": 1.0,
+   "recover": 1.0,
+   "slow": 1.0,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 0.944444
+  },
+  "gpt-6.1-sol|default": {
+   "a11y": 0.0,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 1.0,
+   "failsave": 1.0,
+   "garbage": 0.4,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 0.0,
+   "motion": 0.833333,
+   "narrow": 0.722222,
+   "partial": 0.0,
+   "recover": 1.0,
+   "slow": 1.0,
+   "spacing": 0.944444,
+   "stale": 1.0,
+   "zoom": 0.888889
+  },
+  "gpt-6.1-sol|told": {
+   "a11y": 0.277778,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 0.866667,
+   "failsave": 1.0,
+   "garbage": 0.866667,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 0.916667,
+   "motion": 0.888889,
+   "narrow": 1.0,
+   "partial": 1.0,
+   "recover": 1.0,
+   "slow": 1.0,
+   "spacing": 0.944444,
+   "stale": 1.0,
+   "zoom": 1.0
+  },
+  "kimi-k3|default": {
+   "a11y": 0.555556,
+   "announce": 0.555556,
+   "double": 1.0,
+   "empty": 0.75,
+   "failed": 1.0,
+   "failsave": 1.0,
+   "garbage": 0.333333,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 0.083333,
+   "motion": 1.0,
+   "narrow": 0.888889,
+   "partial": 0.0,
+   "recover": 0.0,
+   "slow": 0.933333,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 1.0
+  },
+  "kimi-k3|told": {
+   "a11y": 0.944444,
+   "announce": 1.0,
+   "double": 1.0,
+   "empty": 1.0,
+   "failed": 0.933333,
+   "failsave": 1.0,
+   "garbage": 0.8,
+   "invalid": 1.0,
+   "keyboard": 1.0,
+   "long": 1.0,
+   "motion": 0.944444,
+   "narrow": 0.944444,
+   "partial": 0.666667,
+   "recover": 1.0,
+   "slow": 1.0,
+   "spacing": 1.0,
+   "stale": 1.0,
+   "zoom": 1.0
+  }
+ },
+ "per_task": {
+  "claude-fable-5.2|default": {
+   "releases": 1.0,
+   "account": 1.0,
+   "event": 1.0,
+   "products": 0.904762,
+   "invite": 1.0,
+   "workspace": 0.833333
+  },
+  "claude-fable-5.2|told": {
+   "releases": 1.0,
+   "account": 1.0,
+   "event": 1.0,
+   "products": 0.904762,
+   "invite": 1.0,
+   "workspace": 1.0
+  },
+  "claude-opus-5.5|default": {
+   "releases": 0.714286,
+   "account": 0.75,
+   "event": 0.791667,
+   "products": 0.571429,
+   "invite": 1.0,
+   "workspace": 0.888889
+  },
+  "claude-opus-5.5|told": {
+   "releases": 1.0,
+   "account": 0.958333,
+   "event": 1.0,
+   "products": 0.904762,
+   "invite": 1.0,
+   "workspace": 0.888889
+  },
+  "muse-wonder|default": {
+   "releases": 0.761905,
+   "account": 0.583333,
+   "event": 0.541667,
+   "products": 0.809524,
+   "invite": 1.0,
+   "workspace": 0.944444
+  },
+  "muse-wonder|told": {
+   "releases": 1.0,
+   "account": 0.916667,
+   "event": 0.958333,
+   "products": 0.904762,
+   "invite": 1.0,
+   "workspace": 0.944444
+  },
+  "grok-4.7|default": {
+   "releases": 0.761905,
+   "account": 0.541667,
+   "event": 0.5,
+   "products": 0.619048,
+   "invite": 1.0,
+   "workspace": 0.833333
+  },
+  "grok-4.7|told": {
+   "releases": 1.0,
+   "account": 0.833333,
+   "event": 1.0,
+   "products": 1.0,
+   "invite": 0.666667,
+   "workspace": 1.0
+  },
+  "gpt-6-astra|default": {
+   "releases": 0.857143,
+   "account": 0.458333,
+   "event": 0.416667,
+   "products": 0.714286,
+   "invite": 0.5,
+   "workspace": 0.833333
+  },
+  "gpt-6-astra|told": {
+   "releases": 0.809524,
+   "account": 0.875,
+   "event": 0.875,
+   "products": 0.761905,
+   "invite": 0.75,
+   "workspace": 0.888889
+  },
+  "gpt-6.1-sol|default": {
+   "releases": 0.714286,
+   "account": 0.416667,
+   "event": 0.416667,
+   "products": 0.666667,
+   "invite": 0.666667,
+   "workspace": 0.555556
+  },
+  "gpt-6.1-sol|told": {
+   "releases": 0.904762,
+   "account": 0.833333,
+   "event": 0.833333,
+   "products": 0.904762,
+   "invite": 0.833333,
+   "workspace": 0.777778
+  },
+  "kimi-k3|default": {
+   "releases": 0.428571,
+   "account": 0.291667,
+   "event": 0.291667,
+   "products": 0.619048,
+   "invite": 0.916667,
+   "workspace": 0.722222
+  },
+  "kimi-k3|told": {
+   "releases": 0.904762,
+   "account": 0.875,
+   "event": 1.0,
+   "products": 0.952381,
+   "invite": 1.0,
+   "workspace": 0.888889
+  }
+ },
+ "apps": {
+  "claude-fable-5.2|default": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.857143,
+   0.857143,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.833333,
+   0.666667,
+   1.0
+  ],
+  "claude-fable-5.2|told": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.857143,
+   0.857143,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "claude-opus-5.5|default": [
+   0.571429,
+   0.714286,
+   0.857143,
+   0.75,
+   0.625,
+   0.875,
+   0.75,
+   0.875,
+   0.75,
+   0.714286,
+   0.571429,
+   0.428571,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.833333,
+   0.833333
+  ],
+  "claude-opus-5.5|told": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.875,
+   1.0,
+   1.0,
+   1.0,
+   0.857143,
+   0.857143,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.833333,
+   1.0,
+   0.833333
+  ],
+  "muse-wonder|default": [
+   0.857143,
+   0.571429,
+   0.857143,
+   0.625,
+   0.625,
+   0.5,
+   0.625,
+   0.5,
+   0.5,
+   0.714286,
+   0.857143,
+   0.857143,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.833333,
+   1.0
+  ],
+  "muse-wonder|told": [
+   1.0,
+   1.0,
+   1.0,
+   0.875,
+   1.0,
+   0.875,
+   0.875,
+   1.0,
+   1.0,
+   0.857143,
+   1.0,
+   0.857143,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.833333,
+   1.0
+  ],
+  "grok-4.7|default": [
+   0.857143,
+   0.714286,
+   0.714286,
+   0.5,
+   0.375,
+   0.75,
+   0.5,
+   0.625,
+   0.375,
+   0.571429,
+   0.714286,
+   0.571429,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.666667,
+   0.833333
+  ],
+  "grok-4.7|told": [
+   1.0,
+   1.0,
+   1.0,
+   0.75,
+   0.875,
+   0.875,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "gpt-6-astra|default": [
+   0.857143,
+   0.857143,
+   0.857143,
+   0.375,
+   0.625,
+   0.375,
+   0.375,
+   0.375,
+   0.5,
+   0.714286,
+   0.714286,
+   0.714286,
+   0.5,
+   0.5,
+   0.5,
+   0.833333,
+   0.833333,
+   0.833333
+  ],
+  "gpt-6-astra|told": [
+   0.857143,
+   0.857143,
+   0.714286,
+   0.875,
+   0.875,
+   0.875,
+   0.875,
+   0.875,
+   0.875,
+   0.714286,
+   0.714286,
+   0.857143,
+   0.75,
+   0.75,
+   0.75,
+   0.833333,
+   1.0,
+   0.833333
+  ],
+  "gpt-6.1-sol|default": [
+   0.714286,
+   0.714286,
+   0.714286,
+   0.375,
+   0.5,
+   0.375,
+   0.5,
+   0.375,
+   0.375,
+   0.571429,
+   0.714286,
+   0.714286,
+   0.75,
+   0.75,
+   0.5,
+   0.5,
+   0.666667,
+   0.5
+  ],
+  "gpt-6.1-sol|told": [
+   0.857143,
+   1.0,
+   0.857143,
+   0.75,
+   0.875,
+   0.875,
+   0.875,
+   0.75,
+   0.875,
+   0.857143,
+   0.857143,
+   1.0,
+   1.0,
+   0.75,
+   0.75,
+   0.833333,
+   0.666667,
+   0.833333
+  ],
+  "kimi-k3|default": [
+   0.428571,
+   0.428571,
+   0.428571,
+   0.375,
+   0.125,
+   0.375,
+   0.375,
+   0.25,
+   0.25,
+   0.571429,
+   0.571429,
+   0.714286,
+   1.0,
+   1.0,
+   0.75,
+   0.666667,
+   0.666667,
+   0.833333
+  ],
+  "kimi-k3|told": [
+   1.0,
+   0.857143,
+   0.857143,
+   0.875,
+   0.875,
+   0.875,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.857143,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.666667,
+   1.0
+  ]
+ },
+ "axe": {
+  "claude-fable-5.2|default": {
+   "apps_with_violations": 0,
+   "rules": {}
+  },
+  "claude-fable-5.2|told": {
+   "apps_with_violations": 0,
+   "rules": {}
+  },
+  "claude-opus-5.5|default": {
+   "apps_with_violations": 4,
+   "rules": {
+    "color-contrast": 4
+   }
+  },
+  "claude-opus-5.5|told": {
+   "apps_with_violations": 0,
+   "rules": {}
+  },
+  "muse-wonder|default": {
+   "apps_with_violations": 5,
+   "rules": {
+    "color-contrast": 5
+   }
+  },
+  "muse-wonder|told": {
+   "apps_with_violations": 2,
+   "rules": {
+    "color-contrast": 1,
+    "dlitem": 1,
+    "definition-list": 1
+   }
+  },
+  "grok-4.7|default": {
+   "apps_with_violations": 0,
+   "rules": {}
+  },
+  "grok-4.7|told": {
+   "apps_with_violations": 1,
+   "rules": {
+    "aria-prohibited-attr": 1
+   }
+  },
+  "gpt-6-astra|default": {
+   "apps_with_violations": 18,
+   "rules": {
+    "color-contrast": 18
+   }
+  },
+  "gpt-6-astra|told": {
+   "apps_with_violations": 17,
+   "rules": {
+    "color-contrast": 17,
+    "label-content-name-mismatch": 3,
+    "aria-prohibited-attr": 2
+   }
+  },
+  "gpt-6.1-sol|default": {
+   "apps_with_violations": 18,
+   "rules": {
+    "color-contrast": 18,
+    "label-content-name-mismatch": 4
+   }
+  },
+  "gpt-6.1-sol|told": {
+   "apps_with_violations": 13,
+   "rules": {
+    "color-contrast": 13,
+    "label-content-name-mismatch": 3,
+    "aria-prohibited-attr": 1
+   }
+  },
+  "kimi-k3|default": {
+   "apps_with_violations": 8,
+   "rules": {
+    "color-contrast": 7,
+    "aria-progressbar-name": 2,
+    "aria-prohibited-attr": 1
+   }
+  },
+  "kimi-k3|told": {
+   "apps_with_violations": 1,
+   "rules": {
+    "color-contrast": 1
+   }
+  }
+ },
+ "runs": [
+  {
+   "id": "releases__claude-fable-5.2__default__1",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 106,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-fable-5.2__default__2",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 66,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-fable-5.2__default__3",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 59,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-fable-5.2__default__1",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 88,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-fable-5.2__default__2",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": false,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "slow": [
+     "stable_layout"
+    ]
+   },
+   "seconds": 223,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-fable-5.2__default__3",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 90,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-fable-5.2__default__1",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 127,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-fable-5.2__default__2",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 117,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-fable-5.2__default__3",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 87,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-fable-5.2__default__1",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 316,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-fable-5.2__default__2",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 197,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-fable-5.2__default__3",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 62,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-fable-5.2__default__1",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 104,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-fable-5.2__default__2",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 87,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-fable-5.2__default__3",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 127,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-fable-5.2__default__1",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "error_shown"
+    ]
+   },
+   "seconds": 153,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-fable-5.2__default__2",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.666667,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "error_shown"
+    ],
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 84,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-fable-5.2__default__3",
+   "model": "claude-fable-5.2",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 90,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-fable-5.2__told__1",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 232,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-fable-5.2__told__2",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 155,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-fable-5.2__told__3",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 208,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-fable-5.2__told__1",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 209,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-fable-5.2__told__2",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 242,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-fable-5.2__told__3",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 176,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-fable-5.2__told__1",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 208,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-fable-5.2__told__2",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 366,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-fable-5.2__told__3",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 241,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-fable-5.2__told__1",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 215,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-fable-5.2__told__2",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 320,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-fable-5.2__told__3",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 136,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-fable-5.2__told__1",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 250,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-fable-5.2__told__2",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 343,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-fable-5.2__told__3",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 196,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-fable-5.2__told__1",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 150,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-fable-5.2__told__2",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 211,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-fable-5.2__told__3",
+   "model": "claude-fable-5.2",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 164,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-opus-5.5__default__1",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.571429,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 83,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-opus-5.5__default__2",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 51,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-opus-5.5__default__3",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ]
+   },
+   "seconds": 54,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-opus-5.5__default__1",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": false,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "narrow": [
+     "no_sideways_scroll"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 55,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-opus-5.5__default__2",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.625,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "narrow": [
+     "no_sideways_scroll"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 56,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-opus-5.5__default__3",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 88,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-opus-5.5__default__1",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 73,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-opus-5.5__default__2",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ]
+   },
+   "seconds": 68,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-opus-5.5__default__3",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ]
+   },
+   "seconds": 78,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-opus-5.5__default__1",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "narrow": [
+     "no_sideways_scroll"
+    ]
+   },
+   "seconds": 57,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-opus-5.5__default__2",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.571429,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "narrow": [
+     "no_sideways_scroll"
+    ]
+   },
+   "seconds": 63,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-opus-5.5__default__3",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.428571,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "narrow": [
+     "no_sideways_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 72,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-opus-5.5__default__1",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 100,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-opus-5.5__default__2",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 90,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-opus-5.5__default__3",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 116,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-opus-5.5__default__1",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 70,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-opus-5.5__default__2",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "error_shown"
+    ]
+   },
+   "seconds": 70,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-opus-5.5__default__3",
+   "model": "claude-opus-5.5",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "error_shown"
+    ]
+   },
+   "seconds": 117,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-opus-5.5__told__1",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 130,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-opus-5.5__told__2",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 88,
+   "status": "completed"
+  },
+  {
+   "id": "releases__claude-opus-5.5__told__3",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 95,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-opus-5.5__told__1",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": false,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "slow": [
+     "stable_layout"
+    ]
+   },
+   "seconds": 143,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-opus-5.5__told__2",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 471,
+   "status": "completed"
+  },
+  {
+   "id": "account__claude-opus-5.5__told__3",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": false,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": false,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "slow": [
+     "stable_layout"
+    ],
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ]
+   },
+   "seconds": 144,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-opus-5.5__told__1",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 244,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-opus-5.5__told__2",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 224,
+   "status": "completed"
+  },
+  {
+   "id": "event__claude-opus-5.5__told__3",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 133,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-opus-5.5__told__1",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 139,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-opus-5.5__told__2",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 624,
+   "status": "completed"
+  },
+  {
+   "id": "products__claude-opus-5.5__told__3",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 186,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-opus-5.5__told__1",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 261,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-opus-5.5__told__2",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 108,
+   "status": "completed"
+  },
+  {
+   "id": "invite__claude-opus-5.5__told__3",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 106,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-opus-5.5__told__1",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 151,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-opus-5.5__told__2",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 172,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__claude-opus-5.5__told__3",
+   "model": "claude-opus-5.5",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 180,
+   "status": "completed"
+  },
+  {
+   "id": "releases__muse-wonder__default__1",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 126,
+   "status": "completed"
+  },
+  {
+   "id": "releases__muse-wonder__default__2",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.571429,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "announce": [
+     "load_error"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 103,
+   "status": "completed"
+  },
+  {
+   "id": "releases__muse-wonder__default__3",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 32,
+   "status": "completed"
+  },
+  {
+   "id": "account__muse-wonder__default__1",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.625,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ]
+   },
+   "seconds": 70,
+   "status": "completed"
+  },
+  {
+   "id": "account__muse-wonder__default__2",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.625,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ]
+   },
+   "seconds": 89,
+   "status": "completed"
+  },
+  {
+   "id": "account__muse-wonder__default__3",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "narrow": [
+     "no_sideways_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ]
+   },
+   "seconds": 38,
+   "status": "completed"
+  },
+  {
+   "id": "event__muse-wonder__default__1",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.625,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ]
+   },
+   "seconds": 82,
+   "status": "completed"
+  },
+  {
+   "id": "event__muse-wonder__default__2",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_new_inner_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 37,
+   "status": "completed"
+  },
+  {
+   "id": "event__muse-wonder__default__3",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "motion": [
+     "still_while_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 50,
+   "status": "completed"
+  },
+  {
+   "id": "products__muse-wonder__default__1",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll"
+    ]
+   },
+   "seconds": 70,
+   "status": "completed"
+  },
+  {
+   "id": "products__muse-wonder__default__2",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ]
+   },
+   "seconds": 35,
+   "status": "completed"
+  },
+  {
+   "id": "products__muse-wonder__default__3",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ]
+   },
+   "seconds": 30,
+   "status": "completed"
+  },
+  {
+   "id": "invite__muse-wonder__default__1",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 74,
+   "status": "completed"
+  },
+  {
+   "id": "invite__muse-wonder__default__2",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 92,
+   "status": "completed"
+  },
+  {
+   "id": "invite__muse-wonder__default__3",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 48,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__muse-wonder__default__1",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 96,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__muse-wonder__default__2",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ]
+   },
+   "seconds": 37,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__muse-wonder__default__3",
+   "model": "muse-wonder",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 74,
+   "status": "completed"
+  },
+  {
+   "id": "releases__muse-wonder__told__1",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 143,
+   "status": "completed"
+  },
+  {
+   "id": "releases__muse-wonder__told__2",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 86,
+   "status": "completed"
+  },
+  {
+   "id": "releases__muse-wonder__told__3",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": false,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "slow": [
+     "stable_layout"
+    ]
+   },
+   "seconds": 66,
+   "status": "completed"
+  },
+  {
+   "id": "account__muse-wonder__told__1",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ]
+   },
+   "seconds": 105,
+   "status": "completed"
+  },
+  {
+   "id": "account__muse-wonder__told__2",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 211,
+   "status": "completed"
+  },
+  {
+   "id": "account__muse-wonder__told__3",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 119,
+   "status": "completed"
+  },
+  {
+   "id": "event__muse-wonder__told__1",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 0.666667,
+   "pass": {
+    "slow": false,
+    "failed": false,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "slow": [
+     "stable_layout"
+    ],
+    "failed": [
+     "not_stuck_loading"
+    ],
+    "garbage": [
+     "no_raw_error_text",
+     "not_stuck_loading"
+    ]
+   },
+   "seconds": 82,
+   "status": "completed"
+  },
+  {
+   "id": "event__muse-wonder__told__2",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 95,
+   "status": "completed"
+  },
+  {
+   "id": "event__muse-wonder__told__3",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 106,
+   "status": "completed"
+  },
+  {
+   "id": "products__muse-wonder__told__1",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 154,
+   "status": "completed"
+  },
+  {
+   "id": "products__muse-wonder__told__2",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 133,
+   "status": "completed"
+  },
+  {
+   "id": "products__muse-wonder__told__3",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 75,
+   "status": "completed"
+  },
+  {
+   "id": "invite__muse-wonder__told__1",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 98,
+   "status": "completed"
+  },
+  {
+   "id": "invite__muse-wonder__told__2",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 85,
+   "status": "completed"
+  },
+  {
+   "id": "invite__muse-wonder__told__3",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 85,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__muse-wonder__told__1",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 204,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__muse-wonder__told__2",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 82,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__muse-wonder__told__3",
+   "model": "muse-wonder",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 83,
+   "status": "completed"
+  },
+  {
+   "id": "releases__grok-4.7__default__1",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ]
+   },
+   "seconds": 248,
+   "status": "completed"
+  },
+  {
+   "id": "releases__grok-4.7__default__2",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 223,
+   "status": "completed"
+  },
+  {
+   "id": "releases__grok-4.7__default__3",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 151,
+   "status": "completed"
+  },
+  {
+   "id": "account__grok-4.7__default__1",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 265,
+   "status": "completed"
+  },
+  {
+   "id": "account__grok-4.7__default__2",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "announce": [
+     "load_error"
+    ],
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 210,
+   "status": "completed"
+  },
+  {
+   "id": "account__grok-4.7__default__3",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ]
+   },
+   "seconds": 247,
+   "status": "completed"
+  },
+  {
+   "id": "event__grok-4.7__default__1",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "announce": [
+     "load_error"
+    ]
+   },
+   "seconds": 289,
+   "status": "completed"
+  },
+  {
+   "id": "event__grok-4.7__default__2",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.625,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ]
+   },
+   "seconds": 273,
+   "status": "completed"
+  },
+  {
+   "id": "event__grok-4.7__default__3",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "announce": [
+     "load_error"
+    ],
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 148,
+   "status": "completed"
+  },
+  {
+   "id": "products__grok-4.7__default__1",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.571429,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 341,
+   "status": "completed"
+  },
+  {
+   "id": "products__grok-4.7__default__2",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll"
+    ]
+   },
+   "seconds": 247,
+   "status": "completed"
+  },
+  {
+   "id": "products__grok-4.7__default__3",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.571429,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_new_inner_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 232,
+   "status": "completed"
+  },
+  {
+   "id": "invite__grok-4.7__default__1",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 653,
+   "status": "completed"
+  },
+  {
+   "id": "invite__grok-4.7__default__2",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 492,
+   "status": "completed"
+  },
+  {
+   "id": "invite__grok-4.7__default__3",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 248,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__grok-4.7__default__1",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 666,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__grok-4.7__default__2",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.666667,
+   "stakes": 0.875,
+   "pass": {
+    "slow": true,
+    "failed": false,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "failed": [
+     "not_stuck_loading"
+    ],
+    "garbage": [
+     "no_raw_error_text",
+     "not_stuck_loading"
+    ],
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 383,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__grok-4.7__default__3",
+   "model": "grok-4.7",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 180,
+   "status": "completed"
+  },
+  {
+   "id": "releases__grok-4.7__told__1",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 1200,
+   "status": "deadline"
+  },
+  {
+   "id": "releases__grok-4.7__told__2",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 839,
+   "status": "completed"
+  },
+  {
+   "id": "releases__grok-4.7__told__3",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 442,
+   "status": "completed"
+  },
+  {
+   "id": "account__grok-4.7__told__1",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 0.666667,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": false,
+    "spacing": false,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "zoom": [
+     "no_text_cut_or_spilled"
+    ],
+    "spacing": [
+     "no_text_cut_or_spilled"
+    ]
+   },
+   "seconds": 1200,
+   "status": "deadline"
+  },
+  {
+   "id": "account__grok-4.7__told__2",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": false,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "failed": [
+     "not_stuck_loading"
+    ],
+    "garbage": [
+     "not_stuck_loading"
+    ]
+   },
+   "seconds": 1200,
+   "status": "deadline"
+  },
+  {
+   "id": "account__grok-4.7__told__3",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 746,
+   "status": "completed"
+  },
+  {
+   "id": "event__grok-4.7__told__1",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 1200,
+   "status": "deadline"
+  },
+  {
+   "id": "event__grok-4.7__told__2",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 1200,
+   "status": "deadline"
+  },
+  {
+   "id": "event__grok-4.7__told__3",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 1200,
+   "status": "deadline"
+  },
+  {
+   "id": "products__grok-4.7__told__1",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 1038,
+   "status": "completed"
+  },
+  {
+   "id": "products__grok-4.7__told__2",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 1033,
+   "status": "completed"
+  },
+  {
+   "id": "products__grok-4.7__told__3",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 900,
+   "status": "completed"
+  },
+  {
+   "id": "invite__grok-4.7__told__1",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 1200,
+   "status": "deadline"
+  },
+  {
+   "id": "invite__grok-4.7__told__2",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "invite",
+   "rep": 2,
+   "gate": false,
+   "harder": 0.0,
+   "stakes": 0.0,
+   "pass": {
+    "narrow": false,
+    "zoom": false,
+    "spacing": false,
+    "keyboard": false,
+    "motion": false,
+    "double": false,
+    "failsave": false,
+    "invalid": false,
+    "a11y": false,
+    "announce": false
+   },
+   "failed_checks": {},
+   "seconds": 1200,
+   "status": "deadline"
+  },
+  {
+   "id": "invite__grok-4.7__told__3",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 1013,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__grok-4.7__told__1",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 966,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__grok-4.7__told__2",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 1032,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__grok-4.7__told__3",
+   "model": "grok-4.7",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 1200,
+   "status": "deadline"
+  },
+  {
+   "id": "releases__gpt-6-astra__default__1",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": false,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "zoom": [
+     "no_sideways_scroll"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 151,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6-astra__default__2",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 144,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6-astra__default__3",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 130,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6-astra__default__1",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_new_inner_scroll"
+    ],
+    "narrow": [
+     "no_sideways_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 233,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6-astra__default__2",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.625,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 191,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6-astra__default__3",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_new_inner_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "narrow": [
+     "no_sideways_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 220,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6-astra__default__1",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "motion": [
+     "still_while_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 245,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6-astra__default__2",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "motion": [
+     "still_while_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 195,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6-astra__default__3",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 195,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6-astra__default__1",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 186,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6-astra__default__2",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 260,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6-astra__default__3",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 198,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6-astra__default__1",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 208,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6-astra__default__2",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 165,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6-astra__default__3",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 0.833333,
+   "pass": {
+    "narrow": false,
+    "zoom": false,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "zoom": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 517,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6-astra__default__1",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 186,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6-astra__default__2",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 168,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6-astra__default__3",
+   "model": "gpt-6-astra",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 190,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6-astra__told__1",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 283,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6-astra__told__2",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 232,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6-astra__told__3",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": false,
+    "garbage": true,
+    "zoom": false,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "zoom": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 239,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6-astra__told__1",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 419,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6-astra__told__2",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 305,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6-astra__told__3",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 340,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6-astra__told__1",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 414,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6-astra__told__2",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 332,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6-astra__told__3",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 358,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6-astra__told__1",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 300,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6-astra__told__2",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 258,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6-astra__told__3",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 220,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6-astra__told__1",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 292,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6-astra__told__2",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 277,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6-astra__told__3",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 288,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6-astra__told__1",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 218,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6-astra__told__2",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 274,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6-astra__told__3",
+   "model": "gpt-6-astra",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 291,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6.1-sol__default__1",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 257,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6.1-sol__default__2",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 256,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6.1-sol__default__3",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": false,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "zoom": [
+     "no_sideways_scroll"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 221,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6.1-sol__default__1",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "narrow": [
+     "no_sideways_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 333,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6.1-sol__default__2",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 423,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6.1-sol__default__3",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "narrow": [
+     "no_sideways_scroll"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 306,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6.1-sol__default__1",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 313,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6.1-sol__default__2",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": false,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_sideways_scroll",
+     "no_new_inner_scroll"
+    ],
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "spacing": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 252,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6.1-sol__default__3",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": false,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "zoom": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 438,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6.1-sol__default__1",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.571429,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "motion": [
+     "still_while_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 317,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6.1-sol__default__2",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 259,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6.1-sol__default__3",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "long": [
+     "no_new_inner_scroll"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 275,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6.1-sol__default__1",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 353,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6.1-sol__default__2",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 270,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6.1-sol__default__3",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 223,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6.1-sol__default__1",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "motion": [
+     "still_while_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 227,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6.1-sol__default__2",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.666667,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 250,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6.1-sol__default__3",
+   "model": "gpt-6.1-sol",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.5,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "motion": [
+     "still_while_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 498,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6.1-sol__told__1",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 326,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6.1-sol__told__2",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 333,
+   "status": "completed"
+  },
+  {
+   "id": "releases__gpt-6.1-sol__told__3",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 233,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6.1-sol__told__1",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 379,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6.1-sol__told__2",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 356,
+   "status": "completed"
+  },
+  {
+   "id": "account__gpt-6.1-sol__told__3",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 397,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6.1-sol__told__1",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": false,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "spacing": [
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 384,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6.1-sol__told__2",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": false,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "failed": [
+     "not_stuck_loading"
+    ],
+    "garbage": [
+     "not_stuck_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 384,
+   "status": "completed"
+  },
+  {
+   "id": "event__gpt-6.1-sol__told__3",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": false,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "failed": [
+     "not_stuck_loading"
+    ],
+    "garbage": [
+     "not_stuck_loading"
+    ]
+   },
+   "seconds": 446,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6.1-sol__told__1",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 375,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6.1-sol__told__2",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 349,
+   "status": "completed"
+  },
+  {
+   "id": "products__gpt-6.1-sol__told__3",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 701,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6.1-sol__told__1",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 460,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6.1-sol__told__2",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 383,
+   "status": "completed"
+  },
+  {
+   "id": "invite__gpt-6.1-sol__told__3",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 346,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6.1-sol__told__1",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 363,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6.1-sol__told__2",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.666667,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 301,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__gpt-6.1-sol__told__3",
+   "model": "gpt-6.1-sol",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 383,
+   "status": "completed"
+  },
+  {
+   "id": "releases__kimi-k3__default__1",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.428571,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "announce": [
+     "load_error"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 22,
+   "status": "completed"
+  },
+  {
+   "id": "releases__kimi-k3__default__2",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.428571,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "announce": [
+     "load_error"
+    ]
+   },
+   "seconds": 16,
+   "status": "completed"
+  },
+  {
+   "id": "releases__kimi-k3__default__3",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.428571,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "announce": [
+     "load_error"
+    ]
+   },
+   "seconds": 17,
+   "status": "completed"
+  },
+  {
+   "id": "account__kimi-k3__default__1",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": false,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "empty": [
+     "empty_message"
+    ],
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "announce": [
+     "load_error"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 26,
+   "status": "completed"
+  },
+  {
+   "id": "account__kimi-k3__default__2",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.125,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": false,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "empty": [
+     "empty_message"
+    ],
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "announce": [
+     "load_error"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 24,
+   "status": "completed"
+  },
+  {
+   "id": "account__kimi-k3__default__3",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 0.833333,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": false,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "empty": [
+     "empty_message"
+    ],
+    "long": [
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "announce": [
+     "load_error"
+    ]
+   },
+   "seconds": 18,
+   "status": "completed"
+  },
+  {
+   "id": "event__kimi-k3__default__1",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.375,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 40,
+   "status": "completed"
+  },
+  {
+   "id": "event__kimi-k3__default__2",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.25,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "announce": [
+     "load_error"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 22,
+   "status": "completed"
+  },
+  {
+   "id": "event__kimi-k3__default__3",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.25,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": false,
+    "garbage": false,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "narrow": [
+     "no_text_cut_or_spilled"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ],
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 25,
+   "status": "completed"
+  },
+  {
+   "id": "products__kimi-k3__default__1",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.571429,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": false,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll"
+    ],
+    "announce": [
+     "load_error"
+    ]
+   },
+   "seconds": 27,
+   "status": "completed"
+  },
+  {
+   "id": "products__kimi-k3__default__2",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.571429,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "stale": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll",
+     "no_text_cut_or_spilled"
+    ],
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 25,
+   "status": "completed"
+  },
+  {
+   "id": "products__kimi-k3__default__3",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.714286,
+   "stakes": 0.857143,
+   "pass": {
+    "slow": false,
+    "failed": true,
+    "recover": false,
+    "empty": true,
+    "long": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "slow": [
+     "loading_signal"
+    ],
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "long": [
+     "no_sideways_scroll"
+    ]
+   },
+   "seconds": 27,
+   "status": "completed"
+  },
+  {
+   "id": "invite__kimi-k3__default__1",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 34,
+   "status": "completed"
+  },
+  {
+   "id": "invite__kimi-k3__default__2",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 40,
+   "status": "completed"
+  },
+  {
+   "id": "invite__kimi-k3__default__3",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.75,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 35,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__kimi-k3__default__1",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.666667,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 31,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__kimi-k3__default__2",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.666667,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ],
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 31,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__kimi-k3__default__3",
+   "model": "kimi-k3",
+   "cond": "default",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.833333,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": false,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "recover": [
+     "retry_control",
+     "retry_works"
+    ]
+   },
+   "seconds": 24,
+   "status": "completed"
+  },
+  {
+   "id": "releases__kimi-k3__told__1",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "releases",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 224,
+   "status": "completed"
+  },
+  {
+   "id": "releases__kimi-k3__told__2",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "releases",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": false
+   },
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 113,
+   "status": "completed"
+  },
+  {
+   "id": "releases__kimi-k3__told__3",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "releases",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 54,
+   "status": "completed"
+  },
+  {
+   "id": "account__kimi-k3__told__1",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "account",
+   "rep": 1,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": false,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "narrow": [
+     "no_sideways_scroll"
+    ]
+   },
+   "seconds": 161,
+   "status": "completed"
+  },
+  {
+   "id": "account__kimi-k3__told__2",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "account",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ]
+   },
+   "seconds": 59,
+   "status": "completed"
+  },
+  {
+   "id": "account__kimi-k3__told__3",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "account",
+   "rep": 3,
+   "gate": true,
+   "harder": 0.875,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": false,
+    "partial1": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {
+    "partial0": [
+     "working_part_shown"
+    ],
+    "partial1": [
+     "working_part_shown"
+    ]
+   },
+   "seconds": 39,
+   "status": "completed"
+  },
+  {
+   "id": "event__kimi-k3__told__1",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "event",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 134,
+   "status": "completed"
+  },
+  {
+   "id": "event__kimi-k3__told__2",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "event",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 173,
+   "status": "completed"
+  },
+  {
+   "id": "event__kimi-k3__told__3",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "event",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "partial0": true,
+    "partial1": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true
+   },
+   "failed_checks": {},
+   "seconds": 49,
+   "status": "completed"
+  },
+  {
+   "id": "products__kimi-k3__told__1",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "products",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 101,
+   "status": "completed"
+  },
+  {
+   "id": "products__kimi-k3__told__2",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "products",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.857143,
+   "stakes": 0.857143,
+   "pass": {
+    "slow": true,
+    "failed": false,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {
+    "failed": [
+     "not_stuck_loading"
+    ],
+    "garbage": [
+     "not_stuck_loading"
+    ]
+   },
+   "seconds": 98,
+   "status": "completed"
+  },
+  {
+   "id": "products__kimi-k3__told__3",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "products",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "empty": true,
+    "long": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "stale": true
+   },
+   "failed_checks": {},
+   "seconds": 51,
+   "status": "completed"
+  },
+  {
+   "id": "invite__kimi-k3__told__1",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "invite",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 58,
+   "status": "completed"
+  },
+  {
+   "id": "invite__kimi-k3__told__2",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "invite",
+   "rep": 2,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 91,
+   "status": "completed"
+  },
+  {
+   "id": "invite__kimi-k3__told__3",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "invite",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "narrow": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 175,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__kimi-k3__told__1",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 1,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 45,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__kimi-k3__told__2",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 2,
+   "gate": true,
+   "harder": 0.666667,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": false,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": false,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {
+    "garbage": [
+     "error_shown"
+    ],
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 94,
+   "status": "completed"
+  },
+  {
+   "id": "workspace__kimi-k3__told__3",
+   "model": "kimi-k3",
+   "cond": "told",
+   "task": "workspace",
+   "rep": 3,
+   "gate": true,
+   "harder": 1.0,
+   "stakes": 1.0,
+   "pass": {
+    "slow": true,
+    "failed": true,
+    "recover": true,
+    "narrow": true,
+    "garbage": true,
+    "zoom": true,
+    "spacing": true,
+    "announce": true,
+    "keyboard": true,
+    "motion": true,
+    "a11y": true,
+    "double": true,
+    "failsave": true,
+    "invalid": true
+   },
+   "failed_checks": {},
+   "seconds": 48,
+   "status": "completed"
+  }
+ ]
+}

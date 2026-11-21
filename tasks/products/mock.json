@@ -1,0 +1,62 @@
+{
+ "/api/products": {
+  "__search": {
+   "all": [
+    {
+     "id": 1,
+     "name": "Oak desk organiser",
+     "sku": "OD-1001",
+     "category": "Desk",
+     "stock": 14
+    },
+    {
+     "id": 2,
+     "name": "Linen notebook",
+     "sku": "LN-2040",
+     "category": "Paper",
+     "stock": 60
+    },
+    {
+     "id": 3,
+     "name": "Brass pen holder",
+     "sku": "BP-3310",
+     "category": "Desk",
+     "stock": 8
+    },
+    {
+     "id": 4,
+     "name": "Recycled sticky notes",
+     "sku": "RS-2291",
+     "category": "Paper",
+     "stock": 120
+    },
+    {
+     "id": 5,
+     "name": "Felt laptop sleeve",
+     "sku": "FL-5120",
+     "category": "Bags",
+     "stock": 22
+    },
+    {
+     "id": 6,
+     "name": "Canvas pen roll",
+     "sku": "CP-5177",
+     "category": "Bags",
+     "stock": 9
+    },
+    {
+     "id": 7,
+     "name": "Desk pen tray",
+     "sku": "DT-1090",
+     "category": "Desk",
+     "stock": 31
+    }
+   ],
+   "initial": 5,
+   "fields": [
+    "name",
+    "sku"
+   ]
+  }
+ }
+}

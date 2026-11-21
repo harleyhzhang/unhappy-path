@@ -1,0 +1,102 @@
+{
+ "kind": "search",
+ "fixture": {
+  "/api/articles": {
+   "search": {
+    "all": [
+     {
+      "id": 81,
+      "title": "Invite a teammate",
+      "category": "Teams",
+      "updatedAt": "2026-04-01",
+      "summary": "Add someone and pick what they can do."
+     },
+     {
+      "id": 82,
+      "title": "Export data to CSV",
+      "category": "Data",
+      "updatedAt": "2026-04-02",
+      "summary": "Download tables as a file."
+     },
+     {
+      "id": 83,
+      "title": "Billing cycles and invoices",
+      "category": "Billing",
+      "updatedAt": "2026-04-03",
+      "summary": "When you pay and what you get."
+     },
+     {
+      "id": 84,
+      "title": "Set up two-step login",
+      "category": "Security",
+      "updatedAt": "2026-04-04",
+      "summary": "Add a second check when signing in."
+     },
+     {
+      "id": 85,
+      "title": "Keyboard shortcuts",
+      "category": "Tips",
+      "updatedAt": "2026-04-05",
+      "summary": "Move faster without the mouse."
+     },
+     {
+      "id": 86,
+      "title": "Reset your password",
+      "category": "Account",
+      "updatedAt": "2026-04-06",
+      "summary": "Choose a new one if you forgot it."
+     },
+     {
+      "id": 87,
+      "title": "Factory reset a device",
+      "category": "Devices",
+      "updatedAt": "2026-04-07",
+      "summary": "Wipe a device back to its defaults."
+     },
+     {
+      "id": 88,
+      "title": "Restore a deleted project",
+      "category": "Projects",
+      "updatedAt": "2026-04-08",
+      "summary": "Bring back work within 30 days."
+     },
+     {
+      "id": 89,
+      "title": "Configure retention rules",
+      "category": "Data",
+      "updatedAt": "2026-04-09",
+      "summary": "Decide how long data is kept."
+     },
+     {
+      "id": 90,
+      "title": "Share a read-only link",
+      "category": "Sharing",
+      "updatedAt": "2026-04-10",
+      "summary": "Let others look without editing."
+     }
+    ],
+    "initial": 5,
+    "fields": [
+     "title"
+    ]
+   }
+  }
+ },
+ "probes": [
+  "Invite a teammate",
+  "Export data to CSV",
+  "Keyboard shortcuts"
+ ],
+ "emptyEndpoints": [
+  "/api/articles"
+ ],
+ "search": {
+  "label": "Search help articles",
+  "path": "/api/articles",
+  "first": "re",
+  "rest": "set",
+  "nameField": "title"
+ },
+ "id": "articles",
+ "set": "dev"
+}

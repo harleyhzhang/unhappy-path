@@ -1,0 +1,34 @@
+{
+ "kind": "form-edit",
+ "fixture": {
+  "/api/profile": {
+   "name": "Thandiwe Mokoena",
+   "email": "thandiwe.mokoena@example.com",
+   "bio": "Hardware engineer and amateur potter."
+  }
+ },
+ "probes": [],
+ "emptyEndpoints": [],
+ "loaded": {
+  "label": "Full name",
+  "key": "name",
+  "value": "Thandiwe Mokoena"
+ },
+ "submit": {
+  "method": "PUT",
+  "path": "/api/profile",
+  "status": 200,
+  "echo": true,
+  "button": "Save changes",
+  "requiredKey": "name",
+  "fields": [
+   {
+    "label": "Full name",
+    "key": "name",
+    "value": "Thandiwe M. Mokoena-Reid"
+   }
+  ]
+ },
+ "id": "profile",
+ "set": "dev"
+}

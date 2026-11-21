@@ -1,0 +1,69 @@
+{
+ "id": "reviews",
+ "endpoints": {
+  "/api/product": "object",
+  "/api/reviews": "list"
+ },
+ "fixture": {
+  "/api/product": {
+   "id": 52,
+   "name": "Cascade Pour-Over Kettle 1L",
+   "averageRating": 4.6,
+   "reviewCount": 4
+  },
+  "/api/reviews": [
+   {
+    "id": 51,
+    "reviewer": "Fiona W.",
+    "rating": 5,
+    "title": "Precise and quiet",
+    "body": "The gooseneck gives real control and it heats faster than my old one.",
+    "createdAt": "2026-04-18"
+   },
+   {
+    "id": 52,
+    "reviewer": "Dmitri V.",
+    "rating": 4,
+    "title": "Handle gets warm",
+    "body": "Great pour, but the handle warms up after a second boil.",
+    "createdAt": "2026-04-03"
+   },
+   {
+    "id": 53,
+    "reviewer": "Abena O.",
+    "rating": 5,
+    "title": "Worth the upgrade",
+    "body": "Temperature hold works as described. Looks good on the counter.",
+    "createdAt": "2026-03-27"
+   },
+   {
+    "id": 54,
+    "reviewer": "Lars P.",
+    "rating": 4,
+    "title": "Lid is a bit loose",
+    "body": "Does the job well. The lid could fit tighter.",
+    "createdAt": "2026-03-09"
+   }
+  ]
+ },
+ "probes": [
+  "Cascade Pour-Over Kettle 1L",
+  "Fiona W.",
+  "Handle gets warm"
+ ],
+ "emptyEndpoints": [
+  "/api/reviews"
+ ],
+ "kind": "list",
+ "partial": [
+  {
+   "fail": "/api/reviews",
+   "probe": "Cascade Pour-Over Kettle 1L"
+  },
+  {
+   "fail": "/api/product",
+   "probe": "Handle gets warm"
+  }
+ ],
+ "set": "dev"
+}

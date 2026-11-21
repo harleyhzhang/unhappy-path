@@ -1,0 +1,68 @@
+{
+ "id": "team",
+ "endpoints": {
+  "/api/members": "list"
+ },
+ "fixture": {
+  "/api/members": [
+   {
+    "id": 31,
+    "name": "Hana Kobayashi",
+    "role": "Staff Engineer",
+    "department": "Platform",
+    "location": "Osaka",
+    "email": "hana.kobayashi@example.com"
+   },
+   {
+    "id": 32,
+    "name": "Mateo Fuentes",
+    "role": "Data Analyst",
+    "department": "Insights",
+    "location": "Bogota",
+    "email": "mateo.fuentes@example.com"
+   },
+   {
+    "id": 33,
+    "name": "Sigrid Halvorsen",
+    "role": "Support Lead",
+    "department": "Customer Care",
+    "location": "Oslo",
+    "email": "sigrid.halvorsen@example.com"
+   },
+   {
+    "id": 34,
+    "name": "Abdi Warsame",
+    "role": "Site Reliability Engineer",
+    "department": "Platform",
+    "location": "Nairobi",
+    "email": "abdi.warsame@example.com"
+   },
+   {
+    "id": 35,
+    "name": "Claire Beaumont",
+    "role": "Researcher",
+    "department": "Insights",
+    "location": "Lyon",
+    "email": "claire.beaumont@example.com"
+   },
+   {
+    "id": 36,
+    "name": "Rohan Iyer",
+    "role": "Support Specialist",
+    "department": "Customer Care",
+    "location": "Pune",
+    "email": "rohan.iyer@example.com"
+   }
+  ]
+ },
+ "probes": [
+  "Hana Kobayashi",
+  "Sigrid Halvorsen",
+  "Customer Care"
+ ],
+ "emptyEndpoints": [
+  "/api/members"
+ ],
+ "kind": "list",
+ "set": "dev"
+}

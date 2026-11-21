@@ -1,0 +1,60 @@
+{
+ "endpoints": {},
+ "fixture": {
+  "/api/order": {
+   "id": 58,
+   "number": "#8827",
+   "customer": "Caspian Okoro",
+   "placedAt": "2026-05-03",
+   "status": "partially shipped",
+   "totalCents": 46380
+  },
+  "/api/shipments": [
+   {
+    "id": 91,
+    "carrier": "Meridian Freight",
+    "trackingNumber": "MF-203-771-K",
+    "status": "delivered",
+    "eta": "2026-05-07"
+   },
+   {
+    "id": 92,
+    "carrier": "Kestrel Express",
+    "trackingNumber": "KX-9940215",
+    "status": "in transit",
+    "eta": "2026-05-11"
+   },
+   {
+    "id": 93,
+    "carrier": "Meridian Freight",
+    "trackingNumber": "MF-203-802-P",
+    "status": "label created",
+    "eta": "2026-05-14"
+   }
+  ]
+ },
+ "probes": [
+  "#8827",
+  "Caspian Okoro",
+  "KX-9940215"
+ ],
+ "emptyEndpoints": [
+  "/api/shipments"
+ ],
+ "enumFields": [
+  "status"
+ ],
+ "partial": [
+  {
+   "fail": "/api/shipments",
+   "probe": "Caspian Okoro"
+  },
+  {
+   "fail": "/api/order",
+   "probe": "KX-9940215"
+  }
+ ],
+ "id": "order",
+ "kind": "list",
+ "set": "dev"
+}

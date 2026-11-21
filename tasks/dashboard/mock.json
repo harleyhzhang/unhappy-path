@@ -1,0 +1,31 @@
+{
+ "/api/stats": {
+  "revenueCents": 482350,
+  "orders": 37,
+  "newCustomers": 9,
+  "refundRate": 0.021
+ },
+ "/api/orders": [
+  {
+   "id": 1,
+   "number": "#5001",
+   "customer": "Elena Park",
+   "items": 2,
+   "totalCents": 8400
+  },
+  {
+   "id": 2,
+   "number": "#5002",
+   "customer": "Marcus Odell",
+   "items": 1,
+   "totalCents": 2999
+  },
+  {
+   "id": 3,
+   "number": "#5003",
+   "customer": "Yuki Sato",
+   "items": 5,
+   "totalCents": 21050
+  }
+ ]
+}

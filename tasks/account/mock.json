@@ -1,0 +1,39 @@
+{
+ "/api/account": {
+  "id": 1,
+  "name": "Everyday Checking",
+  "holder": "Linden Print Shop",
+  "last4": "4402",
+  "balanceCents": 1284350
+ },
+ "/api/transactions": [
+  {
+   "id": 1,
+   "date": "2026-03-03",
+   "description": "Paper supplier",
+   "amountCents": -48200,
+   "status": "posted"
+  },
+  {
+   "id": 2,
+   "date": "2026-03-02",
+   "description": "Card payment from walk-in",
+   "amountCents": 6400,
+   "status": "posted"
+  },
+  {
+   "id": 3,
+   "date": "2026-03-02",
+   "description": "Courier pickup",
+   "amountCents": -2150,
+   "status": "pending"
+  },
+  {
+   "id": 4,
+   "date": "2026-03-01",
+   "description": "Ink subscription",
+   "amountCents": -9900,
+   "status": "declined"
+  }
+ ]
+}

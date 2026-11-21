@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unhappy Path: a stress benchmark for AI-built web apps</title>
+<meta name="description" content="Unhappy Path replays web apps built by AI models under slow networks, failed requests, long content and small screens, and scores them with browser measurements only.">
+<meta property="og:title" content="Unhappy Path">
+<meta property="og:description" content="Does the app a model builds survive a bad day? 7 models, 252 apps, 3,402 verdicts.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23161513'/%3E%3Cpath d='M5 11h9l6 10h7' stroke='%23f4f3ef' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='14' cy='11' r='2.8' fill='%23e5432a'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site.css">
+<script>(function(){var t=localStorage.getItem('uhp-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t})()</script>
+</head>
+<body>
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Unhappy Path, top of page">
+      <svg viewBox="0 0 30 18" aria-hidden="true"><path d="M1 5h10l6 9h12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="5" r="2.4" fill="var(--fail)"/></svg>
+      Unhappy Path
+    </a>
+    <nav aria-label="Sections">
+      <a href="#leaderboard">Leaderboard</a>
+      <a href="#breakdown">Breakdown</a>
+      <a href="#runs">Runs</a>
+      <a href="#stresses">Stresses</a>
+      <a href="#method">Method</a>
+      <a href="#limits">Limits</a>
+      <a class="keep" href="writeup/">Write-up</a>
+      <button class="theme" id="theme" aria-label="Switch colour theme"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M13.5 9.6A5.8 5.8 0 0 1 6.4 2.5a5.8 5.8 0 1 0 7.1 7.1Z"/></svg></button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero wrap">
+  <div class="hero-grid">
+    <div>
+      <div class="badge"><i></i>v0.1 · exploratory</div>
+      <h1><span>Unhappy</span><span>Path<b class="dot">.</b></span></h1>
+    </div>
+    <div class="hero-side">
+      <p>Does the app a model builds survive a bad day? A benchmark that breaks the network, the data and the screen on purpose.</p>
+      <div class="label by">By Harley Zhang · November 2026</div>
+      <div class="actions">
+        <a class="btn primary" href="writeup/">Read the write-up</a>
+        <a class="btn" href="#method">Method</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wall" aria-labelledby="wall-title">
+    <div class="wall-head">
+      <p id="wall-title"><span id="wall-count"></span> verdicts. Each column is one app, each square one stress. Hover for the run; click to open it.</p>
+      <div class="wall-key"><span><i style="background:var(--quiet)"></i>Pass</span><span><i style="background:var(--fail)"></i>Fail</span></div>
+    </div>
+    <div class="wall-canvas"><canvas id="wall" role="img" aria-label="Grid of every stress verdict in the run, grouped by model"></canvas></div>
+    <div class="wall-labels" id="wall-labels"></div>
+  </div>
+</div>
+
+<section id="leaderboard">
+  <div class="wrap panel">
+    <div class="sec-head">
+      <div>
+        <h2 class="label">Leaderboard</h2>
+        <p>Score on the eight harder stresses across six tasks, three runs each. Equal weight per task and per stress.</p>
+      </div>
+      <div class="seg" data-seg="cond" role="group" aria-label="Prompt"><button data-v="default">Default prompt</button><button data-v="told">Production prompt</button></div>
+    </div>
+    <table class="lb">
+      <thead><tr><th class="n">#</th><th>Model</th><th>Score</th><th class="t"><span class="sr">Score bar</span></th><th class="r">Table stakes</th><th class="r">Median build</th></tr></thead>
+      <tbody id="lb"></tbody>
+      <tfoot><tr><td colspan="3"></td><td class="t"><div class="axis" aria-hidden="true"><span>0%</span><span>20%</span><span>40%</span><span>60%</span><span>80%</span><span>100%</span></div></td><td colspan="2"></td></tr></tfoot>
+    </table>
+    <p class="foot">Bar is the mean. Whiskers are the 95% interval from resampling tasks. Green marks the top row. Build time is elapsed minutes for the captured attempt and is not a speed comparison.<br><b>†</b> Fable 5.2 was generated two days later through a different access path, with two differing starting conditions. Its row is not like-for-like. <a href="#limits">See limits.</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap stats">
+    <div class="stat"><span class="label">Table stakes</span><b>96–100<em>%</em></b><p>Every model shows loading, error and empty states and survives double submits and stale replies with no instruction. Those states no longer separate models.</p></div>
+    <div class="stat"><span class="label">Partial failure</span><b>5<em>of 7</em></b><p>models throw away the half of the page that loaded when the other request fails, in every default app. All 31 failing apps fetch with one Promise.all.</p></div>
+    <div class="stat"><span class="label">One sentence</span><b>+17–39<em>pts</em></b><p>Asking for production quality lifts six of seven models and puts five of them between 92% and 98%. Colour contrast and reduced motion do not move.</p></div>
+  </div>
+</section>
+
+<section id="breakdown">
+  <div class="wrap panel">
+    <div class="sec-head">
+      <div>
+        <h2 class="label">Breakdown</h2>
+        <p>Share of apps passing each stress. Blank cells are stresses that apply to no task of that kind for the model's apps.</p>
+      </div>
+      <div class="seg" data-seg="cond" role="group" aria-label="Prompt"><button data-v="default">Default prompt</button><button data-v="told">Production prompt</button></div>
+    </div>
+    <div class="heat-scroll" tabindex="0" role="region" aria-label="Pass rates by stress"><table class="heat" id="heat"></table></div>
+  </div>
+</section>
+
+<section id="examples">
+  <div class="wrap">
+    <div class="sec-head"><div><h2 class="label">Same app, different day</h2><p>Screenshots the grader saved while replaying real apps from this run.</p></div></div>
+    <div class="pair-tabs" id="pair-tabs"></div>
+    <div id="pair"></div>
+  </div>
+</section>
+
+<section id="runs">
+  <div class="wrap panel">
+    <div class="sec-head"><div><h2 class="label">Runs</h2><p>All 252 apps, with the grader's screenshots and every verdict.</p></div></div>
+    <div class="ex">
+      <div class="ex-ctl">
+        <div><span class="label">Model</span><div class="opts col" id="ex-model"></div></div>
+        <div><span class="label">Task</span><div class="opts" id="ex-task"></div></div>
+        <div><span class="label">Prompt</span><div class="opts" id="ex-cond"></div></div>
+        <div><span class="label">Run</span><div class="opts" id="ex-rep"></div></div>
+      </div>
+      <div>
+        <div class="ex-top"><h3 id="ex-title"></h3><span class="mono" id="ex-meta"></span></div>
+        <div class="frame ex-main"><div class="bar3"><i></i><i></i><i></i></div><img id="ex-img" alt=""></div>
+        <div class="thumbs" id="ex-thumbs" role="group" aria-label="Screenshots for this run"></div>
+        <div class="checks" id="ex-checks"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stresses">
+  <div class="wrap">
+    <div class="sec-head"><div><h2 class="label">Stresses</h2><p>Eighteen categories. A stress passes only if every one of its checks passes. No model judges anything.</p></div></div>
+    <div class="two">
+      <div><p class="label grp-title hard"><i></i>Harder stresses · the headline score</p><div id="rules-hard"></div></div>
+      <div><p class="label grp-title"><i></i>Table stakes</p><div id="rules-stakes"></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="tasks">
+  <div class="wrap">
+    <div class="sec-head"><div><h2 class="label">Tasks</h2><p>Six one-page product briefs with a small JSON API. The brief says nothing about loading, errors or screen sizes.</p></div></div>
+    <div class="tasks" id="tasks-grid"></div>
+  </div>
+</section>
+
+<section id="method">
+  <div class="wrap panel">
+    <div class="sec-head"><div><h2 class="label">Method</h2><p>One agent harness, one starting project and a 20-minute limit for every model. <a href="writeup/">The write-up</a> has the detail.</p></div></div>
+    <div class="steps">
+      <div class="step"><h3>Brief</h3><p>A product page and its API, with sample data to develop against.</p></div>
+      <div class="step"><h3>Build</h3><p>The agent works in a sandbox that cannot read the grader, the grading data or any other run.</p></div>
+      <div class="step"><h3>Gate</h3><p>The normal flow is scripted against different data. An app that fails scores zero.</p></div>
+      <div class="step"><h3>Stress</h3><p>The app is rebuilt from source and replayed once per condition, with faults injected from outside.</p></div>
+      <div class="step"><h3>Verdict</h3><p>Each stress passes or fails by a written rule on browser measurements.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="limits">
+  <div class="wrap">
+    <div class="sec-head"><div><h2 class="label">Limits</h2><p>This is an exploratory run. These decide how much weight the numbers can carry.</p></div></div>
+    <ul class="limits">
+      <li><b>No independent human check</b>The verdicts have had one blind second read by an AI agent on the author's side, 31 of 32 in agreement. A check by people who did not write the rules is still owed.</li>
+      <li><b>Repaired in flight</b>An earlier round was withdrawn after a builder read the grading code. This run also had retried attempts, one replaced artifact and a note added to the starting project partway through.</li>
+      <li><b>Fable's row is not like-for-like</b>Generated two days later through a different access path, from a starting project without installed dependencies and with a browser-testing note most other default runs predate.</li>
+      <li><b>One harness, uneven settings</b>Access paths and reasoning settings differ between models. A difference between rows is a difference between model-and-configuration pairs.</li>
+      <li><b>Small and narrow</b>Six tasks, all single-page React apps from families the rules were developed on. Intervals are wide and neighbouring models overlap.</li>
+      <li><b>Proxies</b>Focus visibility is a style change, zoom is a smaller viewport, announcements are read from the accessibility tree. Passing the layout checks does not make a page usable.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="cite">
+  <div class="wrap cite">
+    <div>
+      <h2 class="label">Cite</h2>
+<pre tabindex="0" aria-label="BibTeX citation">@misc{zhang2026unhappypath,
+  title  = {Unhappy Path: stress-testing the web apps
+            AI models build},
+  author = {Zhang, Harley},
+  year   = {2026},
+  note   = {v0.1, exploratory run}
+}</pre>
+      <p class="foot"><a href="data/outcomes.csv">Download every verdict (CSV)</a> · <a href="data/capture-status.csv">Every app (CSV)</a></p>
+    </div>
+    <div>
+      <h2 class="label">Changelog</h2>
+      <ul class="log">
+        <li><span>2026-11-21</span><span>v0.1. Claude Fable 5.2 added as a seventh model. 252 apps, 3,402 verdicts.</span></li>
+        <li><span>2026-11-20</span><span>Final grading of the isolated six-model run: 216 apps.</span></li>
+        <li><span>2026-11-19</span><span>Earlier round withdrawn after evaluator exposure. Builds moved behind an operating-system read policy.</span></li>
+        <li><span>2026-11-16</span><span>Pilot: five tasks, four models, six stresses.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>Unhappy Path · Harley Zhang</span><span>Verdicts from browser measurements only</span></div></footer>
+<div class="tip" id="tip" role="status"></div>
+<script id="data" type="application/json">__DATA__</script>
+<script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+  "claude-fable-5.2": {
+    "default": {
+      "harder": 0.9563492063492064,
+      "table_stakes": 0.9907407407407407,
+      "gate_passes": 18
+    },
+    "told": {
+      "harder": 0.9841269841269841,
+      "table_stakes": 1.0,
+      "gate_passes": 18
+    }
+  },
+  "claude-opus-5.5": {
+    "default": {
+      "harder": 0.7860449735449735,
+      "table_stakes": 1.0,
+      "gate_passes": 18
+    },
+    "told": {
+      "harder": 0.9586640211640212,
+      "table_stakes": 0.9814814814814815,
+      "gate_passes": 18
+    }
+  },
+  "grok-4.7": {
+    "default": {
+      "harder": 0.7093253968253969,
+      "table_stakes": 0.9930555555555556,
+      "gate_passes": 18
+    },
+    "told": {
+      "harder": 0.9166666666666666,
+      "table_stakes": 0.9166666666666666,
+      "gate_passes": 17
+    }
+  },
+  "muse-wonder": {
+    "default": {
+      "harder": 0.7734788359788359,
+      "table_stakes": 1.0,
+      "gate_passes": 18
+    },
+    "told": {
+      "harder": 0.9540343915343915,
+      "table_stakes": 0.9722222222222222,
+      "gate_passes": 18
+    }
+  },
+  "gpt-6.1-sol": {
+    "default": {
+      "harder": 0.5727513227513228,
+      "table_stakes": 0.9722222222222222,
+      "gate_passes": 18
+    },
+    "told": {
+      "harder": 0.8478835978835979,
+      "table_stakes": 0.9722222222222222,
+      "gate_passes": 18
+    }
+  },
+  "gpt-6-astra": {
+    "default": {
+      "harder": 0.6299603174603174,
+      "table_stakes": 0.9814814814814815,
+      "gate_passes": 18
+    },
+    "told": {
+      "harder": 0.8267195767195767,
+      "table_stakes": 0.9907407407407407,
+      "gate_passes": 18
+    }
+  },
+  "kimi-k3": {
+    "default": {
+      "harder": 0.544973544973545,
+      "table_stakes": 0.9642857142857143,
+      "gate_passes": 18
+    },
+    "told": {
+      "harder": 0.9368386243386243,
+      "table_stakes": 0.9920634920634921,
+      "gate_passes": 18
+    }
+  }
+}
