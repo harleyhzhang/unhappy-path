@@ -39,25 +39,24 @@ The record above describes the six-model, 216-case exports as hashed there.
 The exports now also contain 36 Fable 5.2 cases (252 total); the earlier 216
 case rows are unchanged and the hashes below supersede the ones above.
 
-- 36 Fable cases captured at agent completion, one attempt each, no retries,
-  all through one route. All 36 passed the scripted normal flow.
-- Every provider turn logged for these runs (402) reported standard speed.
+- The reported Fable cases are a clean rerun from the same starting project as
+  the original runs (see BUDGET-PROTOCOL.md). 36 captured at agent completion,
+  one attempt each, no retries, one route. All 36 passed the normal-flow gate.
+- Every logged provider turn for the rerun (418) reported standard speed.
 - Grading used the same six measurement source files, by hash, as the earlier
   216 records. No selected Fable trace contains nested model-call candidates.
-- Dependencies and the test browser had been removed from the host and were
-  reinstalled from the lockfiles. Four previously graded apps from four other
-  models, regraded on scratch copies in that restored environment, reproduced
-  their recorded gate and stress verdicts exactly.
-- Each Fable app's lockfile equals the template's and its installed package
-  versions match it.
+- After the rerun, the known-behavior reference controls were graded again:
+  three correct reference apps passed every applicable check and all eight
+  planted defects were detected.
+- Before the first Fable grading, four previously graded apps from four other
+  models were regraded on scratch copies in the restored environment and
+  reproduced their recorded verdicts exactly.
 - Independent CSV calculation passed for all 252 cases. The unit and
-  calibration tests pass. The known-behavior reference controls were not rerun.
-- Fable's differing starting conditions are listed in BUDGET-PROTOCOL.md. Its
-  row is not a like-for-like comparison with the other six.
+  calibration tests pass.
 
 ## Exact export hashes after the addition (SHA-256)
 
-g<1>1b04270d38e47cae764dfb997f9032ffecaf46871b12b13cd31c2f67cb64e0f9`
-g<1>11f93a5e33f9330e8fb1a56962babbc8b4853708c5940fe00c5ae7347a47d530`
-g<1>af0f9428620fa8303659826c983e8c88bb9c0a01770fb1c74fbc5d13abce63d1`
-g<1>fdf8a3cb56b8e840ed5103bb0ed2ebd252c27602d2ac40e89492771221dbc081`
+- `outcomes.csv`: `0f1ef24a70f9da70dede0ad062b5d6d2b06fe4875446c5aab90dcd51159c42d5`
+- `capture-status.csv`: `dda120974ed34c6330420b4c94b80169c35d6f996c2ac0ed5d36593d4f3919b3`
+- `evaluation-fingerprints.json`: `7d7290a1ae0869bb6f53b1fce9481d9165df0643156e6fee75d137290ac0be10`
+- `independent-summary.json`: `a0ac02cd2981b52ec000f804b8d579cbf29a535729bba73318ffe2a7f8e15bec`

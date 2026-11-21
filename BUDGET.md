@@ -8,7 +8,7 @@ Scores give equal weight to each task and each applicable stress category. Both 
 
 | Model | Default artifacts | Default gate failures | Harder stresses | Table stakes | Matched pairs | Instructed harder stresses | Instructed minus default |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| claude-fable-5.2 | 18/18 | 0 | 96% (90–100) | 99% | 18/18 | 98% | +3 pp (+0 to +8) |
+| claude-fable-5.2 | 18/18 | 0 | 95% (91–98) | 100% | 18/18 | 98% | +4 pp (+1 to +7) |
 | claude-opus-5.5 | 18/18 | 0 | 79% (68–89) | 100% | 18/18 | 96% | +17 pp (+7 to +27) |
 | grok-4.7 | 18/18 | 0 | 71% (58–85) | 99% | 18/18 | 92% | +21 pp (-3 to +38) |
 | muse-wonder | 18/18 | 0 | 77% (64–90) | 100% | 18/18 | 95% | +18 pp (+6 to +31) |
@@ -36,7 +36,7 @@ Partial averages the two failure directions per app; other entries are the share
 
 | Model | recover | garbage | partial | long | narrow | motion | a11y | announce |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| claude-fable-5.2 | 100% | 87% | 100% | 100% | 100% | 83% | 100% | 100% |
+| claude-fable-5.2 | 100% | 93% | 100% | 92% | 100% | 78% | 94% | 100% |
 | claude-opus-5.5 | 53% | 60% | 83% | 58% | 72% | 100% | 78% | 100% |
 | grok-4.7 | 73% | 33% | 0% | 0% | 100% | 78% | 100% | 83% |
 | muse-wonder | 73% | 67% | 0% | 33% | 94% | 94% | 72% | 94% |
@@ -64,7 +64,7 @@ Median minutes for the selected captured attempt. Deadline captures include the 
 
 | Model | Default | Instructed |
 |---|---:|---:|
-| claude-fable-5.2 | 1.6 | 3.5 |
+| claude-fable-5.2 | 1.0 | 3.2 |
 | claude-opus-5.5 | 1.2 | 2.5 |
 | grok-4.7 | 4.1 | 18.6 |
 | muse-wonder | 1.2 | 1.6 |

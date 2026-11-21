@@ -110,6 +110,7 @@ measured yet.
 
 Fable 5.2 was added as a seventh model: 36 further cases, all agent-completed
 and all passing the scripted normal flow, for 252 in total. It was generated
-later, through a different access route and with two differing starting
-conditions, so read its row with the caveats in
+later and through a different access route. Its first run had two differing
+starting conditions, so it was rerun from the same starting project as the
+original runs; the rerun is reported. See
 [BUDGET-PROTOCOL.md](BUDGET-PROTOCOL.md#fable-52-addition--november-21-2026).

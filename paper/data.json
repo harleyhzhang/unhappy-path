@@ -71,7 +71,7 @@
    "all": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.956349
+     "score": 0.946098
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -101,7 +101,7 @@
    "no recover": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.948148
+     "score": 0.937302
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -131,7 +131,7 @@
    "no garbage": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.97037
+     "score": 0.945238
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -161,7 +161,7 @@
    "no partial": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.956349
+     "score": 0.943122
     },
     "claude-opus-5.5": {
      "rank": 3,
@@ -191,7 +191,7 @@
    "no long": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.953704
+     "score": 0.94709
     },
     "claude-opus-5.5": {
      "rank": 3,
@@ -221,7 +221,7 @@
    "no narrow": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.948148
+     "score": 0.937302
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -251,7 +251,7 @@
    "no motion": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.977778
+     "score": 0.97619
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -281,7 +281,7 @@
    "no a11y": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.948148
+     "score": 0.945238
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -311,7 +311,7 @@
    "no announce": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.948148
+     "score": 0.937302
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -341,7 +341,7 @@
    "no motion+garbage": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 1.0
+     "score": 0.981481
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -373,7 +373,7 @@
    "all": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.984127
+     "score": 0.982804
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -403,7 +403,7 @@
    "no recover": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.981481
+     "score": 0.97963
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -433,7 +433,7 @@
    "no garbage": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.981481
+     "score": 0.97963
     },
     "claude-opus-5.5": {
      "rank": 4,
@@ -463,7 +463,7 @@
    "no partial": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.984127
+     "score": 0.982804
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -523,7 +523,7 @@
    "no narrow": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.981481
+     "score": 0.97963
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -583,7 +583,7 @@
    "no a11y": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.981481
+     "score": 0.97963
     },
     "claude-opus-5.5": {
      "rank": 5,
@@ -613,7 +613,7 @@
    "no announce": {
     "claude-fable-5.2": {
      "rank": 1,
-     "score": 0.981481
+     "score": 0.97963
     },
     "claude-opus-5.5": {
      "rank": 2,
@@ -675,27 +675,27 @@
  "overall": {
   "claude-fable-5.2": {
    "default": {
-    "harder": 0.956349,
-    "lo": 0.900794,
-    "hi": 1.0,
-    "stakes": 0.990741,
+    "harder": 0.946098,
+    "lo": 0.905423,
+    "hi": 0.981481,
+    "stakes": 1.0,
     "gate_fail": 0,
-    "median_min": 1.6,
+    "median_min": 1.0,
     "deadline": 0
    },
    "told": {
-    "harder": 0.984127,
-    "lo": 0.952381,
+    "harder": 0.982804,
+    "lo": 0.964286,
     "hi": 1.0,
     "stakes": 1.0,
     "gate_fail": 0,
-    "median_min": 3.5,
+    "median_min": 3.2,
     "deadline": 0
    },
    "delta": {
-    "mean": 0.027778,
-    "lo": 0.0,
-    "hi": 0.083333
+    "mean": 0.036706,
+    "lo": 0.006944,
+    "hi": 0.068452
    }
   },
   "claude-opus-5.5": {
@@ -851,21 +851,21 @@
  },
  "categories": {
   "claude-fable-5.2|default": {
-   "a11y": 1.0,
+   "a11y": 0.944444,
    "announce": 1.0,
    "double": 1.0,
    "empty": 1.0,
    "failed": 1.0,
    "failsave": 1.0,
-   "garbage": 0.866667,
+   "garbage": 0.933333,
    "invalid": 1.0,
    "keyboard": 1.0,
-   "long": 1.0,
-   "motion": 0.833333,
+   "long": 0.916667,
+   "motion": 0.777778,
    "narrow": 1.0,
    "partial": 1.0,
    "recover": 1.0,
-   "slow": 0.933333,
+   "slow": 1.0,
    "spacing": 1.0,
    "stale": 1.0,
    "zoom": 1.0
@@ -1134,19 +1134,19 @@
  "per_task": {
   "claude-fable-5.2|default": {
    "releases": 1.0,
-   "account": 1.0,
-   "event": 1.0,
-   "products": 0.904762,
+   "account": 0.958333,
+   "event": 0.916667,
+   "products": 0.857143,
    "invite": 1.0,
-   "workspace": 0.833333
+   "workspace": 0.944444
   },
   "claude-fable-5.2|told": {
    "releases": 1.0,
    "account": 1.0,
    "event": 1.0,
-   "products": 0.904762,
+   "products": 0.952381,
    "invite": 1.0,
-   "workspace": 1.0
+   "workspace": 0.944444
   },
   "claude-opus-5.5|default": {
    "releases": 0.714286,
@@ -1251,11 +1251,12 @@
    1.0,
    1.0,
    1.0,
+   0.875,
    1.0,
+   0.875,
+   0.875,
    1.0,
-   1.0,
-   1.0,
-   1.0,
+   0.857143,
    0.857143,
    0.857143,
    1.0,
@@ -1263,7 +1264,6 @@
    1.0,
    1.0,
    0.833333,
-   0.666667,
    1.0
   ],
   "claude-fable-5.2|told": [
@@ -1277,13 +1277,13 @@
    1.0,
    1.0,
    1.0,
+   1.0,
    0.857143,
-   0.857143,
    1.0,
    1.0,
    1.0,
    1.0,
-   1.0,
+   0.833333,
    1.0
   ],
   "claude-opus-5.5|default": [
@@ -1529,8 +1529,10 @@
  },
  "axe": {
   "claude-fable-5.2|default": {
-   "apps_with_violations": 0,
-   "rules": {}
+   "apps_with_violations": 1,
+   "rules": {
+    "color-contrast": 1
+   }
   },
   "claude-fable-5.2|told": {
    "apps_with_violations": 0,
@@ -1640,7 +1642,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 106,
+   "seconds": 36,
    "status": "completed"
   },
   {
@@ -1668,7 +1670,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 66,
+   "seconds": 54,
    "status": "completed"
   },
   {
@@ -1696,7 +1698,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 59,
+   "seconds": 33,
    "status": "completed"
   },
   {
@@ -1726,7 +1728,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 88,
+   "seconds": 79,
    "status": "completed"
   },
   {
@@ -1736,14 +1738,14 @@
    "task": "account",
    "rep": 2,
    "gate": true,
-   "harder": 1.0,
-   "stakes": 0.833333,
+   "harder": 0.875,
+   "stakes": 1.0,
    "pass": {
-    "slow": false,
+    "slow": true,
     "failed": true,
     "recover": true,
     "empty": true,
-    "long": true,
+    "long": false,
     "narrow": true,
     "garbage": true,
     "partial0": true,
@@ -1756,11 +1758,11 @@
     "a11y": true
    },
    "failed_checks": {
-    "slow": [
-     "stable_layout"
+    "long": [
+     "no_text_cut_or_spilled"
     ]
    },
-   "seconds": 223,
+   "seconds": 57,
    "status": "completed"
   },
   {
@@ -1790,7 +1792,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 90,
+   "seconds": 61,
    "status": "completed"
   },
   {
@@ -1800,7 +1802,7 @@
    "task": "event",
    "rep": 1,
    "gate": true,
-   "harder": 1.0,
+   "harder": 0.875,
    "stakes": 1.0,
    "pass": {
     "slow": true,
@@ -1809,7 +1811,7 @@
     "empty": true,
     "long": true,
     "narrow": true,
-    "garbage": true,
+    "garbage": false,
     "partial0": true,
     "partial1": true,
     "zoom": true,
@@ -1819,8 +1821,12 @@
     "motion": true,
     "a11y": true
    },
-   "failed_checks": {},
-   "seconds": 127,
+   "failed_checks": {
+    "garbage": [
+     "no_raw_error_text"
+    ]
+   },
+   "seconds": 82,
    "status": "completed"
   },
   {
@@ -1830,7 +1836,7 @@
    "task": "event",
    "rep": 2,
    "gate": true,
-   "harder": 1.0,
+   "harder": 0.875,
    "stakes": 1.0,
    "pass": {
     "slow": true,
@@ -1847,10 +1853,14 @@
     "announce": true,
     "keyboard": true,
     "motion": true,
-    "a11y": true
+    "a11y": false
    },
-   "failed_checks": {},
-   "seconds": 117,
+   "failed_checks": {
+    "a11y": [
+     "no_serious_violations"
+    ]
+   },
+   "seconds": 63,
    "status": "completed"
   },
   {
@@ -1880,7 +1890,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 87,
+   "seconds": 88,
    "status": "completed"
   },
   {
@@ -1913,7 +1923,7 @@
      "still_while_loading"
     ]
    },
-   "seconds": 316,
+   "seconds": 55,
    "status": "completed"
   },
   {
@@ -1946,7 +1956,7 @@
      "still_while_loading"
     ]
    },
-   "seconds": 197,
+   "seconds": 58,
    "status": "completed"
   },
   {
@@ -1956,7 +1966,7 @@
    "task": "products",
    "rep": 3,
    "gate": true,
-   "harder": 1.0,
+   "harder": 0.857143,
    "stakes": 1.0,
    "pass": {
     "slow": true,
@@ -1970,12 +1980,16 @@
     "spacing": true,
     "announce": true,
     "keyboard": true,
-    "motion": true,
+    "motion": false,
     "a11y": true,
     "stale": true
    },
-   "failed_checks": {},
-   "seconds": 62,
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 87,
    "status": "completed"
   },
   {
@@ -2000,7 +2014,7 @@
     "invalid": true
    },
    "failed_checks": {},
-   "seconds": 104,
+   "seconds": 66,
    "status": "completed"
   },
   {
@@ -2025,7 +2039,7 @@
     "invalid": true
    },
    "failed_checks": {},
-   "seconds": 87,
+   "seconds": 63,
    "status": "completed"
   },
   {
@@ -2050,7 +2064,7 @@
     "invalid": true
    },
    "failed_checks": {},
-   "seconds": 127,
+   "seconds": 62,
    "status": "completed"
   },
   {
@@ -2060,14 +2074,14 @@
    "task": "workspace",
    "rep": 1,
    "gate": true,
-   "harder": 0.833333,
+   "harder": 1.0,
    "stakes": 1.0,
    "pass": {
     "slow": true,
     "failed": true,
     "recover": true,
     "narrow": true,
-    "garbage": false,
+    "garbage": true,
     "zoom": true,
     "spacing": true,
     "announce": true,
@@ -2078,12 +2092,8 @@
     "failsave": true,
     "invalid": true
    },
-   "failed_checks": {
-    "garbage": [
-     "error_shown"
-    ]
-   },
-   "seconds": 153,
+   "failed_checks": {},
+   "seconds": 73,
    "status": "completed"
   },
   {
@@ -2093,14 +2103,14 @@
    "task": "workspace",
    "rep": 2,
    "gate": true,
-   "harder": 0.666667,
+   "harder": 0.833333,
    "stakes": 1.0,
    "pass": {
     "slow": true,
     "failed": true,
     "recover": true,
     "narrow": true,
-    "garbage": false,
+    "garbage": true,
     "zoom": true,
     "spacing": true,
     "announce": true,
@@ -2112,14 +2122,11 @@
     "invalid": true
    },
    "failed_checks": {
-    "garbage": [
-     "error_shown"
-    ],
     "motion": [
      "still_while_loading"
     ]
    },
-   "seconds": 84,
+   "seconds": 60,
    "status": "completed"
   },
   {
@@ -2148,7 +2155,7 @@
     "invalid": true
    },
    "failed_checks": {},
-   "seconds": 90,
+   "seconds": 67,
    "status": "completed"
   },
   {
@@ -2176,7 +2183,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 232,
+   "seconds": 102,
    "status": "completed"
   },
   {
@@ -2204,7 +2211,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 155,
+   "seconds": 73,
    "status": "completed"
   },
   {
@@ -2232,7 +2239,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 208,
+   "seconds": 86,
    "status": "completed"
   },
   {
@@ -2262,7 +2269,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 209,
+   "seconds": 124,
    "status": "completed"
   },
   {
@@ -2292,7 +2299,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 242,
+   "seconds": 342,
    "status": "completed"
   },
   {
@@ -2322,7 +2329,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 176,
+   "seconds": 264,
    "status": "completed"
   },
   {
@@ -2352,7 +2359,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 208,
+   "seconds": 148,
    "status": "completed"
   },
   {
@@ -2382,7 +2389,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 366,
+   "seconds": 273,
    "status": "completed"
   },
   {
@@ -2412,7 +2419,7 @@
     "a11y": true
    },
    "failed_checks": {},
-   "seconds": 241,
+   "seconds": 240,
    "status": "completed"
   },
   {
@@ -2441,7 +2448,7 @@
     "stale": true
    },
    "failed_checks": {},
-   "seconds": 215,
+   "seconds": 102,
    "status": "completed"
   },
   {
@@ -2451,7 +2458,7 @@
    "task": "products",
    "rep": 2,
    "gate": true,
-   "harder": 0.857143,
+   "harder": 1.0,
    "stakes": 1.0,
    "pass": {
     "slow": true,
@@ -2465,16 +2472,12 @@
     "spacing": true,
     "announce": true,
     "keyboard": true,
-    "motion": false,
+    "motion": true,
     "a11y": true,
     "stale": true
    },
-   "failed_checks": {
-    "motion": [
-     "still_while_loading"
-    ]
-   },
-   "seconds": 320,
+   "failed_checks": {},
+   "seconds": 146,
    "status": "completed"
   },
   {
@@ -2507,7 +2510,7 @@
      "still_while_loading"
     ]
    },
-   "seconds": 136,
+   "seconds": 437,
    "status": "completed"
   },
   {
@@ -2532,7 +2535,7 @@
     "invalid": true
    },
    "failed_checks": {},
-   "seconds": 250,
+   "seconds": 374,
    "status": "completed"
   },
   {
@@ -2557,7 +2560,7 @@
     "invalid": true
    },
    "failed_checks": {},
-   "seconds": 343,
+   "seconds": 242,
    "status": "completed"
   },
   {
@@ -2582,7 +2585,7 @@
     "invalid": true
    },
    "failed_checks": {},
-   "seconds": 196,
+   "seconds": 674,
    "status": "completed"
   },
   {
@@ -2611,7 +2614,7 @@
     "invalid": true
    },
    "failed_checks": {},
-   "seconds": 150,
+   "seconds": 140,
    "status": "completed"
   },
   {
@@ -2621,7 +2624,7 @@
    "task": "workspace",
    "rep": 2,
    "gate": true,
-   "harder": 1.0,
+   "harder": 0.833333,
    "stakes": 1.0,
    "pass": {
     "slow": true,
@@ -2633,14 +2636,18 @@
     "spacing": true,
     "announce": true,
     "keyboard": true,
-    "motion": true,
+    "motion": false,
     "a11y": true,
     "double": true,
     "failsave": true,
     "invalid": true
    },
-   "failed_checks": {},
-   "seconds": 211,
+   "failed_checks": {
+    "motion": [
+     "still_while_loading"
+    ]
+   },
+   "seconds": 491,
    "status": "completed"
   },
   {
@@ -2669,7 +2676,7 @@
     "invalid": true
    },
    "failed_checks": {},
-   "seconds": 164,
+   "seconds": 130,
    "status": "completed"
   },
   {

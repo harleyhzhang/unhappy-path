@@ -1,12 +1,12 @@
 {
   "claude-fable-5.2": {
     "default": {
-      "harder": 0.9563492063492064,
-      "table_stakes": 0.9907407407407407,
+      "harder": 0.9460978835978836,
+      "table_stakes": 1.0,
       "gate_passes": 18
     },
     "told": {
-      "harder": 0.9841269841269841,
+      "harder": 0.9828042328042328,
       "table_stakes": 1.0,
       "gate_passes": 18
     }

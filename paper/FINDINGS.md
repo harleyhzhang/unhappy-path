@@ -14,7 +14,7 @@ Brackets are 95% intervals from resampling whole tasks.
 
 | Model | Default | Production prompt | Change | Table stakes (default) |
 |---|---:|---:|---:|---:|
-| Claude Fable 5.2 † | 96% (90–100) | 98% (95–100) | +3 (0 to +8) | 99% |
+| Claude Fable 5.2 † | 95% (91–98) | 98% (96–100) | +4 (+1 to +7) | 100% |
 | Claude Opus 5.5 | 79% (68–89) | 96% (92–99) | +17 (+7 to +27) | 100% |
 | Muse Wonder | 77% (64–90) | 95% (92–98) | +18 (+6 to +31) | 100% |
 | Grok 4.7 | 71% (58–85) | 92% (81–100) | +21 (−3 to +38) | 99% |
@@ -22,9 +22,9 @@ Brackets are 95% intervals from resampling whole tasks.
 | GPT-6.1 Sol | 57% (48–66) | 85% (81–88) | +28 (+20 to +35) | 97% |
 | Kimi K3 | 54% (37–73) | 94% (90–98) | +39 (+22 to +57) | 96% |
 
-† Generated two days later through a different access path, from a starting
-project without installed dependencies and with a browser-testing note that
-most other default runs predate. Not like-for-like.
+† Generated two days later through a different access path. Reported from a
+rerun that started from the same project as the original runs; a first run
+with two differing starting conditions scored within one point of it.
 
 ## The findings
 
@@ -54,7 +54,7 @@ most other default runs predate. Not like-for-like.
    Half of Grok 4.7's instructed runs reached the 20-minute limit; their
    apps were captured and graded as they stood.
 9. **The order is coarse.** Runs of one model on one task differ by a
-   median of 14 points. Removing any one harder stress moves a model by at
+   median of 13 points. Removing any one harder stress moves a model by at
    most two ranks; Fable, Opus and Muse Wonder stay in the top three.
 
 ## Counts
@@ -66,7 +66,7 @@ most other default runs predate. Not like-for-like.
 ## Limits
 
 No independent human check of the verdicts. Repairs were made during the
-run. Fable's row differs in timing, access path and starting conditions.
+run. Fable was generated later and through a different access path.
 Access paths and reasoning settings differ between models. Six tasks from
 familiar families. Several checks are proxies. Details: METHODS.md, and in
 the repository root BUDGET-PROTOCOL.md, ISOLATION-AUDIT.md and VALIDATION.md.

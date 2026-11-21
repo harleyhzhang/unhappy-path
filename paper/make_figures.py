@@ -101,7 +101,7 @@ def build():
     y = 128 + len(order) * 46
     b += f"<circle cx='46' cy='{y}' r='6' fill='{P['BG']}' stroke='{P['INK']}' stroke-width='2'/>" + t(60, y + 4, 'default prompt', 12, P['MUTE']) + f"<circle cx='176' cy='{y}' r='6.5' fill='{P['CLAY']}'/>" + t(190, y + 4, 'production prompt', 12, P['MUTE'])
     b += f"<line x1='330' y1='{y}' x2='366' y2='{y}' stroke='{P['LINE']}' stroke-width='7' stroke-linecap='round'/>" + t(376, y + 4, '95% interval for default, resampling tasks', 12, P['MUTE'])
-    b += t(40, y + 28, '† Generated later through a different access path, with two differing starting conditions. Not like-for-like; see Limitations.', 11.5, P['MUTE'])
+    b += t(40, y + 28, '† Generated two days later through a different access path; see Limitations.', 11.5, P['MUTE'])
     save('03-leaderboard', 900, y + 46, b)
 
     # 4 heatmap harder, both conditions

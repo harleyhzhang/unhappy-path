@@ -86,5 +86,23 @@ and every stress verdict matched the recorded grades, with identical
 measurement-source hashes. Replaying the older captured apps now requires a
 lockfile install in each app first.
 
+### Clean rerun (reported)
+
+Later on November 21 all 36 Fable cases were generated again, removing both
+differences: the template had its locked dependencies installed and the test
+browser present, and `--no-host-note` removed the browser-testing note, matching
+every Opus, Kimi K3 and Muse Wonder run and most other default runs. Same
+tasks, prompts, capture rule, isolation profile, grader, route, standard speed,
+medium effort and two workers per condition. All 36 completed in one attempt
+each with no retries; all 418 logged provider turns reported standard speed;
+all 36 passed the normal-flow gate.
+
+The rerun replaces the first run in `runs-budget` and every report. The first
+run is kept outside the reported data (`runs-fable-v1`). Harder-stress scores:
+first run 96% default and 98% instructed, rerun 95% and 98%. The two differing
+starting conditions therefore did not materially change Fable's result. The
+rerun was decided before its results were known and is reported regardless of
+its score.
+
 `bench/run.mjs --isolation-config isolation.<name>.local.json` selects the
 private isolation config that points the agent CLI at that router.

@@ -6,7 +6,7 @@ Budgeted extension artifacts. Each column removes one harder stress from the sco
 
 | Model | all eight | no recover | no garbage | no partial | no long | no narrow | no motion | no a11y | no announce | no motion or garbage |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| claude-fable-5.2 | 1 (96%) | 1 (95%) | 1 (97%) | 1 (96%) | 1 (95%) | 1 (95%) | 1 (98%) | 1 (95%) | 1 (95%) | 1 (100%) |
+| claude-fable-5.2 | 1 (95%) | 1 (94%) | 1 (95%) | 1 (94%) | 1 (95%) | 1 (94%) | 1 (98%) | 1 (95%) | 1 (94%) | 1 (98%) |
 | claude-opus-5.5 | 2 (79%) | 2 (81%) | 2 (81%) | 3 (78%) | 3 (80%) | 2 (80%) | 2 (75%) | 2 (78%) | 2 (75%) | 2 (77%) |
 | muse-wonder | 3 (77%) | 3 (78%) | 3 (78%) | 2 (80%) | 2 (81%) | 3 (75%) | 3 (75%) | 3 (78%) | 3 (75%) | 4 (75%) |
 | grok-4.7 | 4 (71%) | 4 (70%) | 4 (75%) | 4 (73%) | 4 (77%) | 4 (66%) | 4 (70%) | 6 (66%) | 4 (69%) | 3 (75%) |

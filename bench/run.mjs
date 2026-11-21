@@ -42,6 +42,8 @@ function prepare(dir, task, port) {
   fs.rmSync(dir, { recursive: true, force: true })
   fs.mkdirSync(path.dirname(dir), { recursive: true })
   execFileSync('cp', ['-Rc', path.join(root, 'template'), dir]) // APFS clone, node_modules included
+  // --no-host-note starts from the template without the host's browser-testing note, as most original runs did.
+  if (process.argv.includes('--no-host-note')) fs.rmSync(path.join(dir, 'AGENTS.md'), { force: true })
   fs.copyFileSync(path.join(root, 'tasks', task, 'BRIEF.md'), path.join(dir, 'BRIEF.md'))
   fs.copyFileSync(path.join(root, 'tasks', task, 'mock.json'), path.join(dir, 'mock', 'api.json'))
   // Each run gets its own dev-server port so parallel runs can never see each other's app.
@@ -69,6 +71,15 @@ function attempt(dir, slug, logFile) {
       fs.chmodSync(path.join(attemptHome, 'auth.json'), 0o600)
       fs.writeFileSync(path.join(attemptHome, 'config.toml'), fs.readFileSync(path.join(codexHome, 'config.toml'), 'utf8').replaceAll(codexHome, attemptHome))
       fs.mkdirSync(path.join(attemptHome, 'tmp'), { recursive: true, mode: 0o700 })
+      // The fake HOME has no keychain, so any Chrome an agent launches pops
+      // "Keychain Not Found" on the host. A throwaway keychain absorbs those writes.
+      const keychain = path.join(attemptHome, 'fakehome', 'Library', 'Keychains', 'login.keychain-db')
+      fs.mkdirSync(path.dirname(keychain), { recursive: true, mode: 0o700 })
+      const kcEnv = { ...process.env, HOME: path.join(attemptHome, 'fakehome') }
+      try {
+        execFileSync('/usr/bin/security', ['create-keychain', '-p', 'bench', keychain], { env: kcEnv, stdio: 'ignore' })
+        execFileSync('/usr/bin/security', ['set-keychain-settings', keychain], { env: kcEnv, stdio: 'ignore' })
+      } catch (e) { console.warn(`throwaway keychain setup failed: ${e.message}`) }
       attemptProfile = path.join(bundle, 'isolation.sb')
       fs.writeFileSync(attemptProfile, fs.readFileSync(isolation.profile, 'utf8') +
         `\n(deny signal)\n(allow signal (target self) (target children))\n(deny file-write*)\n(allow file-write* (subpath "/private/tmp") (subpath "/private/var/folders") (subpath "/dev"))\n(deny file-read* file-write* (subpath "${path.dirname(isolation.workspace)}"))\n(allow file-read* file-write* (subpath "${bundle}"))\n(allow file-read-metadata (subpath "${path.dirname(isolation.workspace)}"))\n`)

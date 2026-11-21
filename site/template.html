@@ -73,7 +73,7 @@
       <tbody id="lb"></tbody>
       <tfoot><tr><td colspan="3"></td><td class="t"><div class="axis" aria-hidden="true"><span>0%</span><span>20%</span><span>40%</span><span>60%</span><span>80%</span><span>100%</span></div></td><td colspan="2"></td></tr></tfoot>
     </table>
-    <p class="foot">Bar is the mean. Whiskers are the 95% interval from resampling tasks. Green marks the top row. Build time is elapsed minutes for the captured attempt and is not a speed comparison.<br><b>†</b> Fable 5.2 was generated two days later through a different access path, with two differing starting conditions. Its row is not like-for-like. <a href="#limits">See limits.</a></p>
+    <p class="foot">Bar is the mean. Whiskers are the 95% interval from resampling tasks. Green marks the top row. Build time is elapsed minutes for the captured attempt and is not a speed comparison.<br><b>†</b> Fable 5.2 was generated two days later through a different access path. <a href="#limits">See limits.</a></p>
   </div>
 </section>
 
@@ -162,7 +162,7 @@
     <ul class="limits">
       <li><b>No independent human check</b>The verdicts have had one blind second read by an AI agent on the author's side, 31 of 32 in agreement. A check by people who did not write the rules is still owed.</li>
       <li><b>Repaired in flight</b>An earlier round was withdrawn after a builder read the grading code. This run also had retried attempts, one replaced artifact and a note added to the starting project partway through.</li>
-      <li><b>Fable's row is not like-for-like</b>Generated two days later through a different access path, from a starting project without installed dependencies and with a browser-testing note most other default runs predate.</li>
+      <li><b>Fable was added later</b>Generated two days after the other six through a different access path, then rerun from the same starting project as the original runs. The rerun is reported; it scored within one point of the first run.</li>
       <li><b>One harness, uneven settings</b>Access paths and reasoning settings differ between models. A difference between rows is a difference between model-and-configuration pairs.</li>
       <li><b>Small and narrow</b>Six tasks, all single-page React apps from families the rules were developed on. Intervals are wide and neighbouring models overlap.</li>
       <li><b>Proxies</b>Focus visibility is a style change, zoom is a smaller viewport, announcements are read from the accessibility tree. Passing the layout checks does not make a page usable.</li>
@@ -186,7 +186,7 @@
     <div>
       <h2 class="label">Changelog</h2>
       <ul class="log">
-        <li><span>2026-11-21</span><span>v0.1. Claude Fable 5.2 added as a seventh model. 252 apps, 3,402 verdicts.</span></li>
+        <li><span>2026-11-21</span><span>v0.1. Claude Fable 5.2 added as a seventh model and rerun from the original starting project. 252 apps, 3,402 verdicts.</span></li>
         <li><span>2026-11-20</span><span>Final grading of the isolated six-model run: 216 apps.</span></li>
         <li><span>2026-11-19</span><span>Earlier round withdrawn after evaluator exposure. Builds moved behind an operating-system read policy.</span></li>
         <li><span>2026-11-16</span><span>Pilot: five tasks, four models, six stresses.</span></li>
