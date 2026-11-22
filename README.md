@@ -114,3 +114,13 @@ later and through a different access route. Its first run had two differing
 starting conditions, so it was rerun from the same starting project as the
 original runs; the rerun is reported. See
 [BUDGET-PROTOCOL.md](BUDGET-PROTOCOL.md#fable-52-addition--november-21-2026).
+
+## November 22 second round
+
+Six new tasks (`"set": "confirm"`) under a protocol and five predictions
+committed before any build: [CONFIRM-PROTOCOL.md](CONFIRM-PROTOCOL.md). All
+seven models generated together, one attempt per app; 248 of 252 apps
+captured (four lost to access errors and reported as missing). All five
+predictions held; default-order Spearman with the main run 0.96. See
+[CONFIRM.md](CONFIRM.md), produced by `python3 bench/confirm.py`; exports are
+under artifacts-confirm/.

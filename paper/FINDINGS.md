@@ -57,6 +57,26 @@ with two differing starting conditions scored within one point of it.
    median of 13 points. Removing any one harder stress moves a model by at
    most two ranks; Fable, Opus and Muse Wonder stay in the top three.
 
+## Second round
+
+Six new tasks, registered with five predictions before any app was built
+(CONFIRM-PROTOCOL.md); all seven models generated together from the same
+starting project, one attempt per app. 248 of 252 apps captured, 3,349
+verdicts. All five predictions held:
+
+1. Default order agrees with the main run: Spearman 0.96 (threshold 0.6).
+2. The sentence raises at least six models: six rose by 18 to 42 points;
+   Fable stayed at 96%.
+3. Default table stakes at least 90% for every model: lowest 94%.
+4. Muse Wonder, Grok, Astra, Sol and Kimi fail partial failure in most
+   default two-request apps: each failed all six.
+5. Astra and Sol fail the accessibility audit in most default apps: each
+   failed all 18.
+
+Grok's instructed apps came from two access paths after its first path ran
+out of allowance; the 11 from the second path were all captured at the time
+limit. Details: CONFIRM.md.
+
 ## Counts
 
 - 252 apps captured: 243 at agent completion, 9 at the 20-minute deadline.
@@ -67,7 +87,7 @@ with two differing starting conditions scored within one point of it.
 
 No independent human check of the verdicts. Repairs were made during the
 run. Fable was generated later and through a different access path.
-Access paths and reasoning settings differ between models. Six tasks from
-familiar families. Several checks are proxies. Details: METHODS.md, and in
+Access paths and reasoning settings differ between models. Twelve tasks
+across two rounds, all from familiar families. Several checks are proxies. Details: METHODS.md, and in
 the repository root BUDGET-PROTOCOL.md, ISOLATION-AUDIT.md and VALIDATION.md.
 

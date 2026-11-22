@@ -1,0 +1,66 @@
+{
+ "kind": "list",
+ "endpoints": {},
+ "fixture": {
+  "/api/supplier": {
+   "id": 12,
+   "name": "Quarry Lane Timber",
+   "contact": "Dagny Whitcombe",
+   "city": "Duluth",
+   "openBalanceCents": 1736240
+  },
+  "/api/orders": [
+   {
+    "id": 801,
+    "number": "PO-58213",
+    "placedAt": "2026-08-19",
+    "totalCents": 448900,
+    "status": "sent"
+   },
+   {
+    "id": 802,
+    "number": "PO-58207",
+    "placedAt": "2026-08-12",
+    "totalCents": 129550,
+    "status": "received"
+   },
+   {
+    "id": 803,
+    "number": "PO-58199",
+    "placedAt": "2026-08-03",
+    "totalCents": 87125,
+    "status": "received"
+   },
+   {
+    "id": 804,
+    "number": "PO-58190",
+    "placedAt": "2026-07-28",
+    "totalCents": 23000,
+    "status": "draft"
+   }
+  ]
+ },
+ "probes": [
+  "Quarry Lane Timber",
+  "Dagny Whitcombe",
+  "PO-58213"
+ ],
+ "emptyEndpoints": [
+  "/api/orders"
+ ],
+ "enumFields": [
+  "status"
+ ],
+ "partial": [
+  {
+   "fail": "/api/orders",
+   "probe": "Quarry Lane Timber"
+  },
+  {
+   "fail": "/api/supplier",
+   "probe": "PO-58213"
+  }
+ ],
+ "id": "supplier",
+ "set": "confirm"
+}

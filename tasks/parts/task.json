@@ -1,0 +1,103 @@
+{
+ "kind": "search",
+ "fixture": {
+  "/api/parts": {
+   "search": {
+    "all": [
+     {
+      "id": 71,
+      "name": "Brass ball valve 12mm",
+      "partNumber": "BV-1202",
+      "bin": "P4",
+      "quantity": 22
+     },
+     {
+      "id": 72,
+      "name": "Check valve 20mm",
+      "partNumber": "CV-2004",
+      "bin": "P4",
+      "quantity": 9
+     },
+     {
+      "id": 73,
+      "name": "Vacuum gauge",
+      "partNumber": "VG-0090",
+      "bin": "G1",
+      "quantity": 5
+     },
+     {
+      "id": 74,
+      "name": "Relief valve kit",
+      "partNumber": "RV-7710",
+      "bin": "P5",
+      "quantity": 11
+     },
+     {
+      "id": 75,
+      "name": "Pipe thread sealant",
+      "partNumber": "PT-2201",
+      "bin": "S2",
+      "quantity": 31
+     },
+     {
+      "id": 76,
+      "name": "Hose clamp 40mm",
+      "partNumber": "HC-0040",
+      "bin": "H1",
+      "quantity": 64
+     },
+     {
+      "id": 77,
+      "name": "Gate valve 25mm",
+      "partNumber": "GV-2501",
+      "bin": "P4",
+      "quantity": 4
+     },
+     {
+      "id": 78,
+      "name": "Pressure switch",
+      "partNumber": "PS-5500",
+      "bin": "E3",
+      "quantity": 13
+     },
+     {
+      "id": 79,
+      "name": "Drain pan 450mm",
+      "partNumber": "DP-4500",
+      "bin": "H2",
+      "quantity": 8
+     },
+     {
+      "id": 80,
+      "name": "Evaporator coil",
+      "partNumber": "EC-3300",
+      "bin": "R1",
+      "quantity": 2
+     }
+    ],
+    "initial": 5,
+    "fields": [
+     "name",
+     "partNumber"
+    ]
+   }
+  }
+ },
+ "probes": [
+  "Brass ball valve 12mm",
+  "Vacuum gauge",
+  "Pipe thread sealant"
+ ],
+ "emptyEndpoints": [
+  "/api/parts"
+ ],
+ "search": {
+  "label": "Search parts",
+  "path": "/api/parts",
+  "first": "va",
+  "rest": "lve",
+  "nameField": "name"
+ },
+ "id": "parts",
+ "set": "confirm"
+}

@@ -66,7 +66,10 @@ for run in D['runs']:
 with concurrent.futures.ThreadPoolExecutor(8) as pool: list(pool.map(convert, jobs))
 D['shots'] = shots
 
-html = (S / 'template.html').read_text().replace('__DATA__', json.dumps(D, separators=(',', ':')).replace('</', '<\\/'))
+CF = D['confirm']['models']; NM = {m['id']: m['name'] for m in D['models']}
+rows = ''.join(f"<tr><td class='n'>{i + 1}</td><td class='m'>{NM[m]}{'<sup>*</sup>' if m == 'grok-4.7' else ''}</td><td class='r'>{100 * CF[m]['main_default']:.0f}%</td><td class='r'><b>{100 * CF[m]['default']:.0f}%</b></td><td class='r'>{100 * CF[m]['told']:.0f}%</td></tr>"
+               for i, m in enumerate(sorted(CF, key=lambda m: -CF[m]['default'])))
+html = (S / 'template.html').read_text().replace('__CONFIRM__', rows).replace('__RHO__', f"{D['confirm']['spearman_default']:.2f}").replace('__DATA__', json.dumps(D, separators=(',', ':')).replace('</', '<\\/'))
 (OUT / 'index.html').write_text(html)
 for name in ['site.css', 'site.js']: shutil.copyfile(S / name, OUT / name)
 shutil.copytree(S / 'fonts', OUT / 'fonts', dirs_exist_ok=True)

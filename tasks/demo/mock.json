@@ -1,0 +1,9 @@
+{
+ "POST /api/demo-requests": {
+  "status": 201,
+  "body": {
+   "id": 1,
+   "reference": "DEMO-1001"
+  }
+ }
+}

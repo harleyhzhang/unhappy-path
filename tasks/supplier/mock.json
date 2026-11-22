@@ -1,0 +1,32 @@
+{
+ "/api/supplier": {
+  "id": 1,
+  "name": "Birchwood Mill",
+  "contact": "Ana Ruiz",
+  "city": "Portland",
+  "openBalanceCents": 482050
+ },
+ "/api/orders": [
+  {
+   "id": 1,
+   "number": "PO-1104",
+   "placedAt": "2026-02-11",
+   "totalCents": 120000,
+   "status": "sent"
+  },
+  {
+   "id": 2,
+   "number": "PO-1101",
+   "placedAt": "2026-02-02",
+   "totalCents": 56025,
+   "status": "received"
+  },
+  {
+   "id": 3,
+   "number": "PO-1098",
+   "placedAt": "2026-01-27",
+   "totalCents": 9900,
+   "status": "draft"
+  }
+ ]
+}

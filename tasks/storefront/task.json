@@ -1,0 +1,34 @@
+{
+ "kind": "form-edit",
+ "fixture": {
+  "/api/store": {
+   "name": "Copperline Coffee",
+   "phone": "555-0199",
+   "tagline": "Small-batch beans roasted every Tuesday."
+  }
+ },
+ "probes": [],
+ "emptyEndpoints": [],
+ "loaded": {
+  "label": "Store name",
+  "key": "name",
+  "value": "Copperline Coffee"
+ },
+ "submit": {
+  "method": "PUT",
+  "path": "/api/store",
+  "status": 200,
+  "echo": true,
+  "button": "Save store",
+  "requiredKey": "name",
+  "fields": [
+   {
+    "label": "Store name",
+    "key": "name",
+    "value": "Copperline Coffee Roasters"
+   }
+  ]
+ },
+ "id": "storefront",
+ "set": "confirm"
+}

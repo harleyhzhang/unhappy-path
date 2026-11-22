@@ -85,6 +85,22 @@
   </div>
 </section>
 
+<section id="second-round">
+  <div class="wrap panel">
+    <div class="sec-head">
+      <div>
+        <h2 class="label">Second round</h2>
+        <p>Six new tasks under a protocol and five predictions committed before any app was built. All seven models generated together, one attempt per app. 248 of 252 apps captured. All five predictions held.</p>
+      </div>
+    </div>
+    <table class="lb cr">
+      <thead><tr><th class="n">#</th><th>Model</th><th class="r">Main run, default</th><th class="r">Second round, default</th><th class="r">Second round, production</th></tr></thead>
+      <tbody>__CONFIRM__</tbody>
+    </table>
+    <p class="foot">Default-order rank correlation with the main run: __RHO__ (registered threshold 0.6). <b>*</b> 11 of Grok's 16 instructed apps came from a second access path after the first ran out of allowance; all 11 were captured at the time limit. <a href="https://github.com/harleyhzhang/unhappy-path/blob/main/CONFIRM.md">Full report</a></p>
+  </div>
+</section>
+
 <section id="breakdown">
   <div class="wrap panel">
     <div class="sec-head">
@@ -164,7 +180,7 @@
       <li><b>Repaired in flight</b>An earlier round was withdrawn after a builder read the grading code. This run also had retried attempts, one replaced artifact and a note added to the starting project partway through.</li>
       <li><b>Fable was added later</b>Generated two days after the other six through a different access path, then rerun from the same starting project as the original runs. The rerun is reported; it scored within one point of the first run.</li>
       <li><b>One harness, uneven settings</b>Access paths and reasoning settings differ between models. A difference between rows is a difference between model-and-configuration pairs.</li>
-      <li><b>Small and narrow</b>Six tasks, all single-page React apps from families the rules were developed on. Intervals are wide and neighbouring models overlap.</li>
+      <li><b>Small and narrow</b>Twelve tasks across two rounds, all single-page React apps from families the rules were developed on. Intervals are wide and neighbouring models overlap.</li>
       <li><b>Proxies</b>Focus visibility is a style change, zoom is a smaller viewport, announcements are read from the accessibility tree. Passing the layout checks does not make a page usable.</li>
     </ul>
   </div>
@@ -186,6 +202,7 @@
     <div>
       <h2 class="label">Changelog</h2>
       <ul class="log">
+        <li><span>2026-11-22</span><span>Second round: six new tasks, predictions registered in advance, 248 apps, 3,349 verdicts. All five predictions held.</span></li>
         <li><span>2026-11-21</span><span>v0.1. Claude Fable 5.2 added as a seventh model and rerun from the original starting project. 252 apps, 3,402 verdicts.</span></li>
         <li><span>2026-11-20</span><span>Final grading of the isolated six-model run: 216 apps.</span></li>
         <li><span>2026-11-19</span><span>Earlier round withdrawn after evaluator exposure. Builds moved behind an operating-system read policy.</span></li>

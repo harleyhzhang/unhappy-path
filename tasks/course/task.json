@@ -1,0 +1,73 @@
+{
+ "kind": "list",
+ "endpoints": {},
+ "fixture": {
+  "/api/course": {
+   "id": 5,
+   "title": "Field Sketching for Engineers",
+   "instructor": "Odile Varga",
+   "startsOn": "2026-10-05",
+   "seats": 18
+  },
+  "/api/students": [
+   {
+    "id": 61,
+    "name": "Kwame Ashby",
+    "email": "kwame.ashby@example.com",
+    "progress": 100,
+    "status": "completed"
+   },
+   {
+    "id": 62,
+    "name": "Linnea Strand",
+    "email": "linnea.strand@example.com",
+    "progress": 62,
+    "status": "active"
+   },
+   {
+    "id": 63,
+    "name": "Rafael Okonjo",
+    "email": "rafael.okonjo@example.com",
+    "progress": 100,
+    "status": "completed"
+   },
+   {
+    "id": 64,
+    "name": "Hester Vale",
+    "email": "hester.vale@example.com",
+    "progress": 18,
+    "status": "paused"
+   },
+   {
+    "id": 65,
+    "name": "Tomasz Wren",
+    "email": "tomasz.wren@example.com",
+    "progress": 87,
+    "status": "active"
+   }
+  ]
+ },
+ "probes": [
+  "Field Sketching for Engineers",
+  "Odile Varga",
+  "Kwame Ashby"
+ ],
+ "emptyEndpoints": [
+  "/api/students"
+ ],
+ "enumFields": [
+  "status"
+ ],
+ "partial": [
+  {
+   "fail": "/api/students",
+   "probe": "Odile Varga"
+  },
+  {
+   "fail": "/api/course",
+   "probe": "Kwame Ashby"
+  }
+ ],
+ "id": "course",
+ "set": "confirm"
+}

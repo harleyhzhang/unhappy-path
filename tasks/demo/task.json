@@ -1,0 +1,37 @@
+{
+ "kind": "form-create",
+ "fixture": {},
+ "probes": [],
+ "emptyEndpoints": [],
+ "submit": {
+  "method": "POST",
+  "path": "/api/demo-requests",
+  "status": 201,
+  "response": {
+   "id": 512,
+   "reference": "DEMO-4417"
+  },
+  "button": "Request demo",
+  "successProbe": "DEMO-4417",
+  "requiredKey": "name",
+  "fields": [
+   {
+    "label": "Your name",
+    "key": "name",
+    "value": "Philippa Oduya"
+   },
+   {
+    "label": "Company",
+    "key": "company",
+    "value": "Saltgrass Logistics"
+   },
+   {
+    "label": "Work email",
+    "key": "email",
+    "value": "philippa.oduya@example.com"
+   }
+  ]
+ },
+ "id": "demo",
+ "set": "confirm"
+}

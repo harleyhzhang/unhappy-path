@@ -1,0 +1,36 @@
+{
+ "/api/shipments": [
+  {
+   "id": 1,
+   "tracking": "AB-10021-TR",
+   "customer": "Willow Cafe",
+   "carrier": "Northline",
+   "dispatchedAt": "2026-04-08",
+   "status": "in_transit"
+  },
+  {
+   "id": 2,
+   "tracking": "AB-10019-TR",
+   "customer": "Greystone Books",
+   "carrier": "Parcelway",
+   "dispatchedAt": "2026-04-07",
+   "status": "delivered"
+  },
+  {
+   "id": 3,
+   "tracking": "AB-10017-TR",
+   "customer": "Pine & Co",
+   "carrier": "Northline",
+   "dispatchedAt": "2026-04-05",
+   "status": "returned"
+  },
+  {
+   "id": 4,
+   "tracking": "AB-10012-TR",
+   "customer": "Harbor Florist",
+   "carrier": "Swiftpost",
+   "dispatchedAt": "2026-04-02",
+   "status": "delivered"
+  }
+ ]
+}

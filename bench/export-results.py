@@ -1,6 +1,6 @@
 """Export measured outcomes without account routes, logs or filesystem paths."""
 import argparse, csv, hashlib, json, pathlib
-parser=argparse.ArgumentParser();parser.add_argument("--dir",choices=["runs-budget","runs-isolated"],default="runs-budget");args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument("--dir",choices=["runs-budget","runs-isolated","runs-confirm"],default="runs-budget");args=parser.parse_args()
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 rows = []
 for p in sorted((ROOT / args.dir).glob('*/grade.json')):
@@ -12,7 +12,7 @@ for p in sorted((ROOT / args.dir).glob('*/grade.json')):
                          condition=m['condition'], repetition=m['run'], gate=bool(g.get('gate')),
                          stress=stress, category='partial' if stress.startswith('partial') else stress,
                          passed=bool(passed), scored_pass=bool(passed and g.get('gate'))))
-out = ROOT / ('artifacts-budget' if args.dir=='runs-budget' else 'artifacts-isolated'); out.mkdir(exist_ok=True)
+out = ROOT / {'runs-budget': 'artifacts-budget', 'runs-isolated': 'artifacts-isolated', 'runs-confirm': 'artifacts-confirm'}[args.dir]; out.mkdir(exist_ok=True)
 if not rows: raise SystemExit('No isolated outcomes available')
 with (out / 'outcomes.csv').open('w', newline='') as f:
     writer = csv.DictWriter(f, fieldnames=list(rows[0])); writer.writeheader(); writer.writerows(rows)

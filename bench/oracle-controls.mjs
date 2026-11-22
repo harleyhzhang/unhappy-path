@@ -4,7 +4,9 @@ import fs from 'node:fs'
 import path from 'node:path'
 import {execFileSync} from 'node:child_process'
 import assert from 'node:assert/strict'
-const root=path.resolve(import.meta.dirname,'..'),dir=path.join(root,'runs-oracle-controls')
+// --confirm checks that the grader can operate the confirmatory data tasks, using correct reference apps only.
+const confirm=process.argv.includes('--confirm')
+const root=path.resolve(import.meta.dirname,'..'),dir=path.join(root,confirm?'runs-confirm-controls':'runs-oracle-controls')
 const style=`*{box-sizing:border-box}body{margin:0;background:#fff;color:#111;font:16px/1.5 Arial;overflow-wrap:anywhere}main{max-width:1000px;margin:auto;padding:20px;min-width:0}h1{font-size:28px;overflow-wrap:anywhere}h2{font-size:20px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}.card{min-width:0;min-height:600px;border:1px solid #777;padding:16px}.row{border-top:1px solid #777;padding:8px 0}dl{display:grid;grid-template-columns:6rem minmax(0,1fr);gap:4px 8px}dt{font-weight:bold}dd{margin:0;min-width:0;overflow-wrap:anywhere}.error{color:#800}button,input,select,textarea{font:inherit;min-height:44px;max-width:100%;border:1px solid #555;background:#fff;color:#111;padding:10px}button{cursor:pointer;min-width:100px}label{display:block;margin-top:12px}input,select,textarea{display:block;width:100%;min-width:0}textarea{min-height:90px}form{max-width:550px}.feedback{min-height:48px;margin-top:16px}button:disabled{opacity:.6}:focus-visible{outline:3px solid #0047aa;outline-offset:2px}@media(max-width:700px){.grid{grid-template-columns:minmax(0,1fr)}}.clip dd{white-space:nowrap;overflow:hidden}.contrast{color:#bbb}.spinner{position:fixed;right:10px;top:10px;background:#111;width:20px;height:20px;animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}`
 function h(tag,text='',attrs={}){const e=document.createElement(tag);e.textContent=text;for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);return e}
 function dataApp(C){
@@ -59,7 +61,7 @@ function formApp(C){
   catch{feedback('Unable to send the invitation. Please try again.',true)}finally{pending=false;button.disabled=false}
  }
 }
-const cases=[['event','positive',null],['products','positive',null],['invite','positive',null],['event','clip','long'],['event','motion','motion'],['event','contrast','a11y'],['event','announce','announce'],['products','stale','stale'],['invite','double','double'],['invite','invalid','invalid'],['invite','focus','keyboard']]
+const cases=confirm?[['shipments','positive',null],['supplier','positive',null],['course','positive',null],['parts','positive',null]]:[['event','positive',null],['products','positive',null],['invite','positive',null],['event','clip','long'],['event','motion','motion'],['event','contrast','a11y'],['event','announce','announce'],['products','stale','stale'],['invite','double','double'],['invite','invalid','invalid'],['invite','focus','keyboard']]
 fs.mkdirSync(dir,{recursive:true})
 for(const[task,defect,expectedFailure]of cases){
  const id=`${task}__reference-${defect}__control__1`,base=path.join(dir,id),app=path.join(base,'app');fs.mkdirSync(app,{recursive:true})
@@ -74,7 +76,7 @@ for(const[task,defect,expectedFailure]of cases){
 if(process.argv.includes('--grade')){
  const procs=execFileSync('ps',['-axo','command'],{encoding:'utf8'}).split('\n')
  if(procs.some(c=>/^(?:\S*\/)?node\s+.*bench\/run\.mjs(?:\s|$)/.test(c.trim())))throw Error('Do not serve reference code while generation is active')
- execFileSync(process.execPath,[path.join(root,'bench/grade.mjs'),'--dir','runs-oracle-controls','--phase','interim','--jobs','1'],{stdio:'inherit'})
+ execFileSync(process.execPath,[path.join(root,'bench/grade.mjs'),'--dir',confirm?'runs-confirm-controls':'runs-oracle-controls','--phase','interim','--jobs','1'],{stdio:'inherit'})
  for(const[task,defect,expectedFailure]of cases){const id=`${task}__reference-${defect}__control__1`,g=JSON.parse(fs.readFileSync(path.join(dir,id,'grade-interim.json')));assert(g.built&&g.gate,id+' must work normally');if(expectedFailure)assert.equal(g.pass[expectedFailure],false,id+' failed to detect the defect');else assert(Object.values(g.pass).every(Boolean),id+' rejected correct control: '+JSON.stringify(g.checks))}
  console.log('PASS all reference positives and targeted negative controls')
 }else console.log('Prepared reference controls without serving them; use --grade only after generation ends')

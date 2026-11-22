@@ -1,0 +1,63 @@
+{
+ "kind": "list",
+ "endpoints": {
+  "/api/shipments": "list"
+ },
+ "fixture": {
+  "/api/shipments": [
+   {
+    "id": 301,
+    "tracking": "ZX-40917-TR",
+    "customer": "Halloran Bakery",
+    "carrier": "Coastal Freight",
+    "dispatchedAt": "2026-07-14",
+    "status": "in_transit"
+   },
+   {
+    "id": 302,
+    "tracking": "ZX-40911-TR",
+    "customer": "Bellwether Outfitters",
+    "carrier": "Parcelway",
+    "dispatchedAt": "2026-07-13",
+    "status": "in_transit"
+   },
+   {
+    "id": 303,
+    "tracking": "ZX-40902-TR",
+    "customer": "Ostrander Dental",
+    "carrier": "Coastal Freight",
+    "dispatchedAt": "2026-07-11",
+    "status": "delivered"
+   },
+   {
+    "id": 304,
+    "tracking": "ZX-40895-TR",
+    "customer": "Mirabel Ceramics",
+    "carrier": "Swiftpost",
+    "dispatchedAt": "2026-07-10",
+    "status": "returned"
+   },
+   {
+    "id": 305,
+    "tracking": "ZX-40880-TR",
+    "customer": "Tern Lake Lodge",
+    "carrier": "Parcelway",
+    "dispatchedAt": "2026-07-08",
+    "status": "delivered"
+   }
+  ]
+ },
+ "probes": [
+  "Halloran Bakery",
+  "ZX-40911-TR",
+  "Mirabel Ceramics"
+ ],
+ "emptyEndpoints": [
+  "/api/shipments"
+ ],
+ "enumFields": [
+  "status"
+ ],
+ "id": "shipments",
+ "set": "confirm"
+}

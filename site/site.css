@@ -96,6 +96,8 @@ h2.label { font-size: 12.5px; color: var(--ink); letter-spacing: .22em; }
 .lb .s b { display: block; font: 600 16px/1.15 var(--mono); }
 .lb .s small { font: 400 11px var(--mono); color: var(--mute); }
 .lb .r { width: 108px; text-align: right; font: 400 13px var(--mono); }
+.lb.cr .r { width: 200px; }
+.lb.cr th.r { line-height: 1.4; }
 .lb th.r { text-align: right; }
 .track { position: relative; height: 26px; margin-right: 28px; background-image: linear-gradient(to right, var(--line) 1px, transparent 1px); background-size: 20% 100%; border-right: 1px solid var(--line); }
 .bar { position: absolute; left: 0; top: 10px; height: 6px; border-radius: 3px; background: color-mix(in srgb, var(--ink) 26%, transparent); transition: width .5s cubic-bezier(.2, .7, .2, 1); }

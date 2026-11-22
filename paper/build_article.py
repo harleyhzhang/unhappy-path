@@ -20,6 +20,7 @@ FIGS = {
  'BYSTRESS': ('09-by-stress', 'Effect of the production sentence by stress', 'Pass rate by harder stress, averaged over the seven models, without and with the sentence.'),
  'SPREAD': ('10-spread', 'Scores of individual apps', 'Each dot is one app. The default prompt produces a wide spread within every model except one; the sentence compresses it.'),
  'RANKS': ('14-ranks', 'Rank stability', 'Rank on the default prompt when a harder stress is left out of the score.'),
+ 'CONFIRM': ('15-confirm', 'Second round against the main run', 'Second round on six new tasks. Grey diamonds are each model\'s default score in the main run. Open and filled circles are the second round without and with the production sentence.'),
  'ISOLATION': ('13-isolation', 'Isolation before and after', 'The first version let builders read the evaluation tree. The repaired runner denies it at the operating-system level.'),
 }
 body = (R / 'article_body.html').read_text()

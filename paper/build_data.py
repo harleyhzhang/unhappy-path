@@ -78,6 +78,9 @@ def without(drop, c):
 out['sensitivity'] = {c: {('all' if not d else 'no ' + '+'.join(d)): without(d, c) for d in [(), *[(h,) for h in HEAD], ('motion', 'garbage')]} for c in CONDS}
 out.update(overall=overall, categories=cats, per_task=per_task, apps=apps, axe=axe, runs=runs)
 (R / 'paper').mkdir(exist_ok=True)
+cs = json.loads((R / 'artifacts-confirm/summary.json').read_text())
+cs['verdicts'] = sum(1 for _ in csv.DictReader((R / 'artifacts-confirm/outcomes.csv').open()))
+out['confirm'] = cs
 (R / 'paper/data.json').write_text(json.dumps(out, indent=1) + '\n')
 # cross-check against the published report table
 rep = (R / 'BUDGET.md').read_text()

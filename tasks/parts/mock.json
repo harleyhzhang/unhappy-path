@@ -1,0 +1,69 @@
+{
+ "/api/parts": {
+  "__search": {
+   "all": [
+    {
+     "id": 1,
+     "name": "Door closer arm",
+     "partNumber": "DC-0101",
+     "bin": "A1",
+     "quantity": 6
+    },
+    {
+     "id": 2,
+     "name": "Fluorescent tube 4ft",
+     "partNumber": "FT-0400",
+     "bin": "C3",
+     "quantity": 40
+    },
+    {
+     "id": 3,
+     "name": "Toilet flapper",
+     "partNumber": "TF-1120",
+     "bin": "B2",
+     "quantity": 15
+    },
+    {
+     "id": 4,
+     "name": "Thermostat cover",
+     "partNumber": "TC-2090",
+     "bin": "A4",
+     "quantity": 9
+    },
+    {
+     "id": 5,
+     "name": "Exit sign battery",
+     "partNumber": "EB-3310",
+     "bin": "D1",
+     "quantity": 12
+    },
+    {
+     "id": 6,
+     "name": "Door hinge pin",
+     "partNumber": "DH-0120",
+     "bin": "A1",
+     "quantity": 30
+    },
+    {
+     "id": 7,
+     "name": "Faucet cartridge",
+     "partNumber": "FC-1777",
+     "bin": "B3",
+     "quantity": 7
+    },
+    {
+     "id": 8,
+     "name": "Smoke detector",
+     "partNumber": "SD-5000",
+     "bin": "D2",
+     "quantity": 18
+    }
+   ],
+   "initial": 5,
+   "fields": [
+    "name",
+    "partNumber"
+   ]
+  }
+ }
+}

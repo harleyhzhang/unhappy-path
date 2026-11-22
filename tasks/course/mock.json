@@ -1,0 +1,32 @@
+{
+ "/api/course": {
+  "id": 1,
+  "title": "Intro to Spreadsheets",
+  "instructor": "Mina Park",
+  "startsOn": "2026-05-04",
+  "seats": 24
+ },
+ "/api/students": [
+  {
+   "id": 1,
+   "name": "Leo Grant",
+   "email": "leo@example.com",
+   "progress": 100,
+   "status": "completed"
+  },
+  {
+   "id": 2,
+   "name": "Ivy Chen",
+   "email": "ivy@example.com",
+   "progress": 45,
+   "status": "active"
+  },
+  {
+   "id": 3,
+   "name": "Omar Haddad",
+   "email": "omar@example.com",
+   "progress": 10,
+   "status": "paused"
+  }
+ ]
+}

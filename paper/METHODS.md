@@ -100,9 +100,12 @@ resamples of whole tasks, 2.5th and 97.5th percentiles, fixed seed.
 - A blind second read of 32 sampled verdicts on four stresses by an AI
   agent, 31 in agreement. Not an independent human check.
 
+- A second round on six new tasks under a protocol registered before any
+  build, all models generated together: all five predictions held
+  (CONFIRM.md).
+
 ## Validation not done
 
 - Independent human agreement on a random sample of verdicts.
-- A preregistered confirmatory round with all models generated together.
 - Tasks from interaction families the rules were not developed on.
 
