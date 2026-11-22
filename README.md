@@ -118,9 +118,7 @@ original runs; the rerun is reported. See
 ## November 22 second round
 
 Six new tasks (`"set": "confirm"`) under a protocol and five predictions
-committed before any build: [CONFIRM-PROTOCOL.md](CONFIRM-PROTOCOL.md). All
-seven models generated together, one attempt per app; 248 of 252 apps
-captured (four lost to access errors and reported as missing). All five
-predictions held; default-order Spearman with the main run 0.96. See
-[CONFIRM.md](CONFIRM.md), produced by `python3 bench/confirm.py`; exports are
-under artifacts-confirm/.
+committed before any build: [CONFIRM-PROTOCOL.md](CONFIRM-PROTOCOL.md). 252
+apps, 3,402 verdicts. All five predictions held; default-order Spearman with
+the main run 0.96. See [CONFIRM.md](CONFIRM.md), produced by
+`python3 bench/confirm.py`; exports are under artifacts-confirm/.

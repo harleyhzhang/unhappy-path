@@ -101,7 +101,7 @@ resamples of whole tasks, 2.5th and 97.5th percentiles, fixed seed.
   agent, 31 in agreement. Not an independent human check.
 
 - A second round on six new tasks under a protocol registered before any
-  build, all models generated together: all five predictions held
+  build: all five predictions held
   (CONFIRM.md).
 
 ## Validation not done

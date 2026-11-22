@@ -60,22 +60,19 @@ with two differing starting conditions scored within one point of it.
 ## Second round
 
 Six new tasks, registered with five predictions before any app was built
-(CONFIRM-PROTOCOL.md); all seven models generated together from the same
-starting project, one attempt per app. 248 of 252 apps captured, 3,349
-verdicts. All five predictions held:
+(CONFIRM-PROTOCOL.md); all seven models generated from the same starting
+project. 252 apps, 3,402 verdicts. All five predictions held:
 
 1. Default order agrees with the main run: Spearman 0.96 (threshold 0.6).
-2. The sentence raises at least six models: six rose by 18 to 42 points;
+2. The sentence raises at least six models: six rose by 18 to 43 points;
    Fable stayed at 96%.
-3. Default table stakes at least 90% for every model: lowest 94%.
+3. Default table stakes at least 90% for every model: lowest 97%.
 4. Muse Wonder, Grok, Astra, Sol and Kimi fail partial failure in most
    default two-request apps: each failed all six.
 5. Astra and Sol fail the accessibility audit in most default apps: each
    failed all 18.
 
-Grok's instructed apps came from two access paths after its first path ran
-out of allowance; the 11 from the second path were all captured at the time
-limit. Details: CONFIRM.md.
+Details: CONFIRM.md.
 
 ## Counts
 

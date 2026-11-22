@@ -85,3 +85,15 @@ private run logs and summarised as model, harness and date in public.
    route instead of the original one (11 captured, 2 missing), at its default reasoning setting, as in
    the main run. The 23 Grok apps already captured were kept. Grok's results
    are reported both overall and for the 23 original-route apps alone.
+4. **Grok 4.7 regenerated on one route; missing apps retried (November 22).**
+   Because deviations 2 and 3 left Grok's apps split across two routes, all 36
+   Grok apps were discarded and regenerated through
+   the Cursor route, the same route the main run used for Grok. The discarded
+   set is kept privately. The four apps that ended on access errors before the
+   agent completed (two Kimi K3, two Grok 4.7) were retried under the attempt
+   rule beyond the runner's four cycles.
+5. **Host sleep (November 22).** The machine went to sleep during the last
+   three regenerated Grok apps (demo, parts and storefront, instructed run 3),
+   which were captured after about four hours of wall time with 5 to 8 agent
+   steps. They were treated as interrupted attempts and regenerated.
+

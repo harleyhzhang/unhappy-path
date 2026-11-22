@@ -91,16 +91,10 @@ for m in MODELS:
     fin = lambda ms: f'{sum(bool(x.get("generation_finished", x.get("ok"))) for x in ms)}/{len(ms)}'
     med = lambda ms: f'{statistics.median(x["seconds"] / 60 for x in ms):.1f}' if ms else '—'
     L.append(f'| {m} | {fin(g["default"])} | {fin(g["told"])} | {sum(x.get("generation_status") == "deadline" for x in g["told"])} | {med(g["default"])} | {med(g["told"])} |')
-# Grok route split (protocol deviation 3): original route before 05:30 UTC November 22, Cursor route after.
-SWITCH = '2026-11-22T05:30'
-gk = {(t, n): meta['grok-4.7', 'told', t, n]['date'] < SWITCH for t in tasks for n in (1, 2, 3) if ('grok-4.7', 'told', t, n) in meta}
-sub = lambda orig: mean([score(data['grok-4.7', 'told', t, n]) for (t, n), o in gk.items() if o == orig and ('grok-4.7', 'told', t, n) in data])
-L += ['', '## Grok 4.7 by route', '',
-      f'All 18 default Grok apps and {sum(gk.values())} instructed apps came from the original route; the other {len(gk) - sum(gk.values())} instructed apps came from the Cursor route after the original route ran out of allowance (deviation 3). Instructed harder-stress mean per app: original route {pc(sub(True))} over {sum(gk.values())} apps; Cursor route {pc(sub(False))} over {len(gk) - sum(gk.values())} apps, of which {sum(1 for (t, n), o in gk.items() if not o and meta["grok-4.7", "told", t, n].get("generation_status") == "deadline")} were captured at the 20-minute deadline. Prediction 2 for Grok on original-route pairs only: ' + ', '.join(f'{t} run {n} {100 * (score(data["grok-4.7", "told", t, n]) - score(data["grok-4.7", "default", t, n])):+.0f} pp' for (t, n), o in sorted(gk.items()) if o) + '.',
-      '', '## Missing apps', '', 'Four instructed apps are missing: the Cursor route ended them with "Agent turn stopped after repeated resume attempts made no progress" and the runner did not capture an app. Under the protocol they are reported as missing, not rebuilt: ' + ', '.join(f'{t} {m} run {n}' for m in MODELS for t in tasks for n in (1, 2, 3) if (m, 'told', t, n) not in data) + '.']
+miss = [f'{t} {m} {c} run {n}' for m in MODELS for c in ('default', 'told') for t in tasks for n in (1, 2, 3) if (m, c, t, n) not in data]
+if miss: L += ['', '## Missing apps', '', ', '.join(miss) + '.']
 out = dict(apps=sum(C[m]['apps_d'] + C[m]['apps_t'] for m in MODELS), expected=len(MODELS) * full * 2, spearman_default=rho, spearman_told=rho_t,
            models={m: dict(main_default=M[m]['default'], main_told=M[m]['told'], **{k: v for k, v in C[m].items()}) for m in MODELS},
-           partial_fail={m: [sum(pf[m]), len(pf[m])] for m in MODELS}, audit_fail_default={m: [sum(ax[m]), len(ax[m])] for m in MODELS},
-           grok_route=dict(original=sub(True), original_apps=sum(gk.values()), cursor=sub(False), cursor_apps=len(gk) - sum(gk.values())))
+           partial_fail={m: [sum(pf[m]), len(pf[m])] for m in MODELS}, audit_fail_default={m: [sum(ax[m]), len(ax[m])] for m in MODELS})
 (ROOT / 'artifacts-confirm').mkdir(exist_ok=True); (ROOT / 'artifacts-confirm/summary.json').write_text(json.dumps(out, indent=1) + '\n')
 (ROOT / 'CONFIRM.md').write_text('\n'.join(L) + '\n'); print('\n'.join(L))

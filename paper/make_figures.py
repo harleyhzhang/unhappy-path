@@ -259,7 +259,7 @@ def build():
         b += f"<line x1='{sx(g / 100)}' y1='70' x2='{sx(g / 100)}' y2='{84 + len(order) * 46}' stroke='{P['LINE']}' stroke-width='1'/>" + t(sx(g / 100), 100 + len(order) * 46, f'{g}%', 11, P['MUTE'], 'middle')
     for i, m in enumerate(order):
         y = 100 + i * 46; c = C[m]
-        b += t(40, y + 5, NAME[m] + (' *' if m == 'grok-4.7' else ''), 14, weight=600)
+        b += t(40, y + 5, NAME[m], 14, weight=600)
         b += f"<line x1='{sx(c['default_ci'][0])}' y1='{y}' x2='{sx(c['default_ci'][1])}' y2='{y}' stroke='{P['LINE']}' stroke-width='7' stroke-linecap='round'/>"
         b += f"<line x1='{sx(c['default'])}' y1='{y}' x2='{sx(c['told'])}' y2='{y}' stroke='{P['INK']}' stroke-width='1.6'/>"
         b += f"<path d='M{sx(c['main_default']):.1f},{y - 6} l5,6 l-5,6 l-5,-6 z' fill='{P['MUTE']}'/>"
@@ -270,8 +270,7 @@ def build():
     b += f"<path d='M46,{y - 6} l5,6 l-5,6 l-5,-6 z' fill='{P['MUTE']}'/>" + t(60, y + 4, 'main run, default', 12, P['MUTE']) + f"<circle cx='186' cy='{y}' r='6' fill='{P['BG']}' stroke='{P['INK']}' stroke-width='2'/>" + t(200, y + 4, 'second round, default', 12, P['MUTE'])
     b += f"<circle cx='350' cy='{y}' r='6.5' fill='{P['CLAY']}'/>" + t(364, y + 4, 'second round, production prompt', 12, P['MUTE'])
     b += f"<line x1='560' y1='{y}' x2='596' y2='{y}' stroke='{P['LINE']}' stroke-width='7' stroke-linecap='round'/>" + t(606, y + 4, '95% interval, second-round default', 12, P['MUTE'])
-    b += t(40, y + 28, '* 11 of 16 instructed apps came from a second access path and were all captured at the time limit; see the text.', 11.5, P['MUTE'])
-    save('15-confirm', 900, y + 46, b)
+    save('15-confirm', 900, y + 24, b)
 
 def write(folder):
     folder.mkdir(parents=True, exist_ok=True)
